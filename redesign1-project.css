@@ -24,8 +24,7 @@ html[data-project-workspace] .p1-icon-button:focus { box-shadow:none; }
 .p1-project-avatar img { width:100%; height:100%; object-fit:cover; }
 .p1-current-project { height:28px; }
 .p1-chat-list { margin:0 0 12px; }
-.p1-chat-link { display:flex; width:100%; height:28px; align-items:center; gap:14px; padding:0 8px; border:0; border-radius:9px; color:#dedede; background:transparent; font-size:14px; text-align:left; }
-.p1-chat-link svg { width:13px; height:13px; flex:none; color:rgb(255 255 255 / .2); }
+.p1-chat-link { display:flex; width:100%; height:28px; align-items:center; gap:14px; padding:0 8px 0 36px; border:0; border-radius:9px; color:#dedede; background:transparent; font-size:14px; text-align:left; }
 .p1-chat-link span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .p1-chat-link.is-current { background:rgb(255 255 255 / .04); }
 .p1-chat-panel { position:relative; z-index:9; display:flex; min-width:0; min-height:0; flex-direction:column; margin:8px 0; border:1px solid rgb(255 255 255 / .06); border-radius:0 12px 12px 0; background:rgb(40 40 40 / .8); backdrop-filter:blur(50px); }
