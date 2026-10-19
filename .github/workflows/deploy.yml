@@ -24,5 +24,5 @@ jobs:
           echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
-          rsync -az --delete dist/ "ubuntu@$DEPLOY_HOST:/tmp/meshy-redesign-dist/"
-          ssh "ubuntu@$DEPLOY_HOST" 'sudo mkdir -p /var/www/meshy-redesign && sudo rsync -a --delete /tmp/meshy-redesign-dist/ /var/www/meshy-redesign/ && sudo chown -R root:root /var/www/meshy-redesign'
+          set -o pipefail
+          tar -C dist -czf - . | ssh "ubuntu@$DEPLOY_HOST" 'sudo rm -rf /tmp/meshy-redesign-dist && sudo mkdir -p /tmp/meshy-redesign-dist && sudo tar -xzf - -C /tmp/meshy-redesign-dist && sudo mkdir -p /var/www/meshy-redesign && sudo rsync -a --delete /tmp/meshy-redesign-dist/ /var/www/meshy-redesign/ && sudo chown -R root:root /var/www/meshy-redesign && sudo rm -rf /tmp/meshy-redesign-dist'
