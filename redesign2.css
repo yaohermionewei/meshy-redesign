@@ -234,3 +234,18 @@ html[data-redesign="2"] .r2-chat-entry:hover { color: #fff; background: rgb(255 
 html[data-redesign="2"] .r2-chat-entry[aria-current="page"] { color: #f0f0f0; background: rgb(255 255 255 / .055); }
 html[data-redesign="2"] .r2-chat-entry:focus-visible { outline: 2px solid #c5f955; outline-offset: -2px; }
 html[data-redesign="2"][data-r2-sidebar="collapsed"] .r2-chat-list { display: none; }
+
+/* Phones: one 56px bar with the hamburger menu (see redesign1.css). Scheme two's menu also
+   carries the project list, between the navigation and 商店 / 开发者 / 资源. */
+@media (max-width: 767px) {
+ html[data-redesign="2"] .logged-sidebar { height: 56px; }
+ html[data-redesign="2"] .replica-rail-logo { width: 56px; height: 56px; }
+ html[data-redesign="2"] .replica-rail-scroll { position: absolute; top: 52px; right: 10px; left: auto; display: none; width: 264px; height: auto; max-height: calc(100dvh - 72px); flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 0; overflow-y: auto; padding: 6px; border-radius: 14px; background: #1c1f1f; box-shadow: 0 16px 40px rgb(0 0 0 / .5), inset 0 0 0 1px rgb(255 255 255 / .08); }
+ html[data-redesign="2"] .r1-menu-open .replica-rail-scroll { display: flex; }
+ html[data-redesign="2"] .replica-rail-scroll > .replica-rail-group { width: auto; flex-direction: column; align-items: stretch; gap: 2px; }
+ html[data-redesign="2"] .replica-rail-scroll .replica-rail-entry { width: 100%; height: 40px; padding: 0 12px; gap: 12px; font-size: 14px; }
+ html[data-redesign="2"] .replica-rail-scroll > .replica-rail-separator { width: auto; height: 1px; margin: 6px 8px; }
+ html[data-redesign="2"] .r2-mobile-project-toggle { display: none; }
+ html[data-redesign="2"] .r2-sidebar-projects { position: static; order: 1; display: block; max-height: none; overflow: visible; padding: 2px 0 0; border: 0; border-radius: 0; background: none; box-shadow: none; }
+ html[data-redesign="2"] .replica-rail-scroll > .r1-menu-extras { order: 2; }
+}

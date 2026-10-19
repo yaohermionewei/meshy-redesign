@@ -228,7 +228,7 @@ html:not([data-assets-embed]) .is-selecting .ra-check { opacity:1; }
   .ra-meta-actions { opacity:1; }
 }
 @media (max-width:767px) {
-  html[data-assets-workspace] .ra-shell { inset:114px 8px 8px; flex-direction:column; }
+  html[data-assets-workspace] .ra-shell { inset:64px 8px 8px; flex-direction:column; }
   .ra-header { flex-wrap:wrap; gap:8px; min-height:0; padding:10px 10px 0; }
   .ra-back span { display:none; }
   .ra-tab { height:34px; padding:0 12px; border-radius:10px; font-size:14px; }

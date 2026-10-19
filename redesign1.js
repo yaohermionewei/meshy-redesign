@@ -95,7 +95,7 @@
     const divider = document.createElement('span');
     divider.className = 'replica-rail-separator';
     const creation = document.createElement('div');
-    creation.className = 'replica-rail-group';
+    creation.className = 'replica-rail-group r1-creation-group';
     for (const [key, label] of [['image','图像'],['model','模型'],['print','打印'],['animate','动画']]) {
       creation.insertAdjacentHTML('beforeend', `<button type="button" class="replica-rail-entry" aria-label="${label}"><span class="replica-rail-icon">${icons[key]}</span><span class="replica-rail-label">${label}</span></button>`);
     }
@@ -108,6 +108,36 @@
     assets.removeAttribute('role'); assets.removeAttribute('tabindex');
     assets.href = `/redesign/${scheme}/assets`;
     assets.dataset.navLink = 'assets';
+    // Phones: the bar keeps only the logo; every tab (plus 商店 / 开发者 / 资源, and scheme
+    // two's project list) moves into a menu behind the hamburger in the top-right corner.
+    {
+      const menuToggle = document.createElement('button');
+      menuToggle.type = 'button';
+      menuToggle.className = 'r1-menu-toggle';
+      menuToggle.setAttribute('aria-label', '打开导航菜单');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-controls', 'r1-rail-menu');
+      menuToggle.innerHTML = icon('<path d="M4 7h16M4 12h16M4 17h16"/>');
+      railScroll.id = 'r1-rail-menu';
+      const extras = document.createElement('div');
+      extras.className = 'replica-rail-group r1-menu-extras';
+      extras.innerHTML = [...utilities.children].map(button => `<button type="button" class="replica-rail-entry" aria-label="${button.getAttribute('aria-label')}">${button.innerHTML}</button>`).join('');
+      const extrasDivider = document.createElement('span');
+      extrasDivider.className = 'replica-rail-separator r1-menu-extras';
+      railScroll.append(extrasDivider, extras);
+      rail.append(menuToggle);
+      const setMenu = open => {
+        rail.classList.toggle('r1-menu-open', open);
+        menuToggle.setAttribute('aria-expanded', String(open));
+        menuToggle.setAttribute('aria-label', open ? '关闭导航菜单' : '打开导航菜单');
+        menuToggle.innerHTML = icon(open ? '<path d="M18 6 6 18M6 6l12 12"/>' : '<path d="M4 7h16M4 12h16M4 17h16"/>');
+      };
+      menuToggle.addEventListener('click', event => { event.stopPropagation(); setMenu(!rail.classList.contains('r1-menu-open')); });
+      railScroll.addEventListener('click', event => { if (event.target.closest('.replica-rail-entry')) setMenu(false); });
+      document.addEventListener('pointerdown', event => { if (!rail.contains(event.target)) setMenu(false); });
+      document.addEventListener('keydown', event => { if (event.key === 'Escape' && rail.classList.contains('r1-menu-open')) { setMenu(false); menuToggle.focus(); } });
+      matchMedia('(min-width: 768px)').addEventListener('change', () => setMenu(false));
+    }
     // Keep the mode that was active when the asset library was opened so the
     // library's back button can restore the same composer state after a full
     // page navigation. The storage entry is consumed on the next home mount.
@@ -358,7 +388,8 @@
   function updateSticky(scroller) {
     const toolbar = document.querySelector('[data-replica-toolbar]');
     if (!toolbar) return;
-    const top = innerWidth < 768 ? 106 : 56;
+    // Both schemes use a single 56px bar on phones.
+    const top = 56;
     toolbar.style.top = `${top}px`;
     toolbar.classList.toggle('r1-toolbar-stuck', scroller.scrollTop > 200 && toolbar.getBoundingClientRect().top <= top + 1);
     document.querySelector('.r1-utilities')?.classList.toggle('r1-utilities-scrolled', scroller.scrollTop > 24);

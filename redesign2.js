@@ -144,7 +144,7 @@
   function mountSidebar({rail, icons, emptyCover}) {
       rail.setAttribute('aria-label','主导航与项目');
       rail.querySelector('.replica-rail-logo').insertAdjacentHTML('beforeend','<span class="r2-wordmark">Meshy</span>');
-      rail.querySelector('.replica-rail-scroll > .replica-rail-group:last-child').remove();
+      rail.querySelector('.r1-creation-group').remove();
       const projectSection = document.createElement('section');
       projectSection.className = 'r2-sidebar-projects';
       projectSection.id = 'r2-sidebar-projects';

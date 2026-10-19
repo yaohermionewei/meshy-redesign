@@ -42,13 +42,10 @@ const close=(a,b)=>Math.abs(a-b)<=1;
   }
   await page.screenshot({path:`${output}/workspace-${width}.png`});
   if(width<=1100){
-   await page.getByRole('button',{name:'显示对话',exact:true}).click();
-   check(`${width}: compact chat panel is accessible`,await page.locator('.p1-chat-panel').isVisible());
+   // The chat no longer folds into a drawer on narrow windows.
+   check(`${width}: chat panel stays visible`,await page.locator('.p1-chat-panel').isVisible());
    await page.getByRole('textbox',{name:'项目对话输入'}).fill('保留这个项目草稿');
-   await page.keyboard.press('Escape');
-   check(`${width}: Escape closes compact chat`,!await page.locator('.p1-chat-panel').isVisible());
-   await page.getByRole('button',{name:'显示对话',exact:true}).click();
-   check(`${width}: draft survives closing the panel`,await page.getByRole('textbox',{name:'项目对话输入'}).inputValue()==='保留这个项目草稿');
+   check(`${width}: draft is kept in the visible composer`,await page.getByRole('textbox',{name:'项目对话输入'}).inputValue()==='保留这个项目草稿');
    await page.screenshot({path:`${output}/chat-${width}.png`});
    await page.keyboard.press('Escape');
    await page.getByRole('button',{name:'显示项目',exact:true}).click();

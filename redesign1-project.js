@@ -265,17 +265,27 @@
       // The restoration icon stays mounted while its opacity transitions out.
       if(restoreKeyboardFocus)(hidden?projectsRestore:projectsCollapse).focus({preventScroll:true});
     }
-    function closeDrawers(){main.classList.remove('p1-show-projects','p1-show-chat');scrim.hidden=true;syncProjects();}
-    main.querySelectorAll('[data-toggle]').forEach(control=>control.addEventListener('click',event=>{
-      const target=control.dataset.toggle;
-      if(target==='assets'){
-        const hidden=main.classList.toggle('p1-assets-hidden');
+    function setAssetsHidden(hidden){
+      main.classList.toggle('p1-assets-hidden',hidden);
+      const control=main.querySelector('.p1-assets-toggle');
+      if(control){
         control.setAttribute('aria-expanded',String(!hidden));
         control.setAttribute('aria-label',hidden?'展开我的资产':'折叠资产栏');
         control.title=hidden?'展开我的资产':'折叠资产栏';
         control.querySelector('svg').outerHTML=hidden?assetsExpand:icon('layout-sidebar-right-collapse');
-        assetsPanel.inert=hidden;
-        paintCamera();
+      }
+      assetsPanel.inert=hidden;
+      paintCamera();
+    }
+    // Phones have no room for the asset panel next to the chat: it starts folded and folds
+    // again whenever the window narrows to phone width; widening brings it back.
+    const phoneQuery=matchMedia('(max-width: 767px)');
+    phoneQuery.addEventListener('change',()=>setAssetsHidden(phoneQuery.matches));
+    function closeDrawers(){main.classList.remove('p1-show-projects','p1-show-chat');scrim.hidden=true;syncProjects();}
+    main.querySelectorAll('[data-toggle]').forEach(control=>control.addEventListener('click',event=>{
+      const target=control.dataset.toggle;
+      if(target==='assets'){
+        setAssetsHidden(!main.classList.contains('p1-assets-hidden'));
       }else if(target==='projects'&&!sizeQuery.matches){
         toggleDesktopProjects(event.detail===0);
       }else{
@@ -471,6 +481,7 @@
     draft.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing){event.preventDefault();sendFromComposer()}});
     sendButton.addEventListener('click',sendFromComposer);
     syncProjects();
+    if(phoneQuery.matches)setAssetsHidden(true);
     paintCamera();
     const flow=main.querySelector('.p1-chat-flow');flow.scrollTop=flow.scrollHeight;
     // A message sent from the home composer arrives here.

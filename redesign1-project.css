@@ -244,18 +244,18 @@ html[data-project-workspace] .p1-ref-chip button svg { width:14px; height:14px; 
 }
 @media (max-width:767px) {
  html[data-project-workspace] .p1-workspace { --p1-assets-w:calc(100vw - 16px); }
- .p1-shell { width:100%; height:calc(100% - 106px); margin:106px 0 0; }
+ .p1-shell { width:100%; height:calc(100% - 56px); margin:56px 0 0; }
  .p1-assets { top:50%; left:8px; right:8px; bottom:56px; width:auto; }
  .p1-top-tools { top:8px; right:8px; }
- .p1-compact-tools { top:114px; left:8px; }
- .p1-projects, .p1-chat-panel { top:146px; left:8px; bottom:0; width:calc(100% - 16px); max-width:none; }
+ .p1-compact-tools { top:64px; left:8px; }
+ .p1-projects, .p1-chat-panel { top:96px; left:8px; bottom:0; width:calc(100% - 16px); max-width:none; }
  .p1-projects { width:min(300px,calc(100% - 16px)); }
  .p1-assets-toolbar { gap:10px; padding-inline:12px; }
  .p1-asset-filters .p1-icon-button { width:28px; padding:6px; }
  .p1-asset-search input { font-size:12px; }
  .p1-assets-hidden .p1-assets { display:none; }
  html[data-project-workspace] .p1-composer { width:calc(100% - 24px); margin:0 12px 12px; height:130px; }
- .p1-scrim { top:106px; height:calc(100% - 106px); }
+ .p1-scrim { top:56px; height:calc(100% - 56px); }
 }
 html[data-project-workspace] .p1-composer .r1-add svg { width:14px !important; height:14px !important; }
 /* Scheme two: the wide sidebar replaces the project column. */
@@ -270,4 +270,23 @@ html[data-project-workspace] .p1-composer .r1-add svg { width:14px !important; h
 @media (max-width:767px) {
  .p1-scheme2 .p1-chat-panel { left:8px; }
  .p1-scheme2 .p1-compact-tools { left:8px; }
+}
+/* The conversation never folds away on narrow windows (no manual chat toggle yet).
+   Tablet: the chat stays a column beside the canvas; only the project list is a drawer.
+   Phone: the chat is a panel on the lower half, with the canvas and assets above it. */
+.p1-compact-tools [data-toggle="chat"], .p1-compact-tools [data-toggle="chat"] + span { display:none; }
+@media (min-width:768px) and (max-width:1100px) {
+ html[data-project-workspace] .p1-workspace { --p1-chat-w:320px; }
+ .p1-shell, .p1-projects-hidden .p1-shell { display:grid; grid-template-columns:var(--p1-chat-w) minmax(0,1fr); }
+ .p1-chat-panel { position:relative; z-index:9; top:auto; bottom:auto; left:auto; display:flex; width:auto; margin:8px 0 8px 8px; border:1px solid rgb(255 255 255 / .06); border-radius:12px; background:rgb(40 40 40 / .8); }
+ .p1-scheme2 .p1-chat-panel { left:auto; margin-left:8px; }
+ .p1-scheme2 .p1-shell { grid-template-columns:var(--p1-chat-w) minmax(0,1fr); width:calc(100% - var(--r2-sidebar,0px)); margin-left:var(--r2-sidebar,0px); }
+ /* The chat header's sidebar button opens the project drawer, so the floating tools are not needed. */
+ .p1-compact-tools, .p1-scheme2 .p1-compact-tools { display:none; }
+}
+@media (max-width:767px) {
+ .p1-chat-panel, .p1-scheme2 .p1-chat-panel { display:flex; top:auto; left:8px; right:8px; bottom:8px; width:auto; height:52%; margin:0; }
+ .p1-assets { top:48px; bottom:calc(52% + 16px); }
+ .p1-canvas-tools { bottom:calc(52% + 16px); }
+ .p1-scheme2 .p1-compact-tools { display:none; }
 }
