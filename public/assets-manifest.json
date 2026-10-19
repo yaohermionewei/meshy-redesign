@@ -40,7 +40,7 @@
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:32,q:75,f:webp/webapp-build-assets/production/_next/static/media/sidebar-agent-checked.2sg1e_n-wgpgj.png",
-      "file": "assets/d808905180dd-sidebar-agent-checked.2sg1e_n-wgpgj.png",
+      "file": "assets/d808905180dd-sidebar-agent-checked.2sg1e_n-wgpgj.webp",
       "bytes": 1002
     },
     {
@@ -50,22 +50,22 @@
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/cms/banners/images/banner-model%20editing-7f7fc783.png",
-      "file": "assets/cbcd57bb4c6a-banner-model-editing-7f7fc783.png",
+      "file": "assets/cbcd57bb4c6a-banner-model-editing-7f7fc783.webp",
       "bytes": 16798
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/cms/banners/images/image%20(2)-c150b323.png",
-      "file": "assets/04648f9239f3-image--2--c150b323.png",
+      "file": "assets/04648f9239f3-image--2--c150b323.webp",
       "bytes": 21894
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/cms/banners/images/App-3.4-3268358d.png",
-      "file": "assets/8b86f7b88749-App-3.4-3268358d.png",
+      "file": "assets/8b86f7b88749-App-3.4-3268358d.webp",
       "bytes": 32014
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019e0138-c932-7029-a071-9e56f2bfaad7.png",
-      "file": "assets/4ef4a9056efe-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+      "file": "assets/4ef4a9056efe-019e0138-c932-7029-a071-9e56f2bfaad7.webp",
       "bytes": 32518
     },
     {
@@ -75,72 +75,72 @@
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/avatars/019dcd05-b4a5-7cd2-8c45-d40aba362fb0.jpg",
-      "file": "assets/997b6773b601-019dcd05-b4a5-7cd2-8c45-d40aba362fb0.jpg",
+      "file": "assets/997b6773b601-019dcd05-b4a5-7cd2-8c45-d40aba362fb0.webp",
       "bytes": 802
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
-      "file": "assets/ebe75fe7b385-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+      "file": "assets/ebe75fe7b385-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.webp",
       "bytes": 33358
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/avatars/018d5a5d-1ca5-7b78-bbc2-51a9ad026df1.jpg",
-      "file": "assets/d75dea9f272d-018d5a5d-1ca5-7b78-bbc2-51a9ad026df1.jpg",
+      "file": "assets/d75dea9f272d-018d5a5d-1ca5-7b78-bbc2-51a9ad026df1.webp",
       "bytes": 420
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/8d88d414c125480bc1e6edb44bdb1dd26e8b30da9aa635823d47e6bfca5d062d/publish/cover-landscape/019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
-      "file": "assets/61b19daba488-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+      "file": "assets/61b19daba488-019dd6a9-303a-71d6-b9ec-ba6df72238e2.webp",
       "bytes": 19554
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/8d88d414c125480bc1e6edb44bdb1dd26e8b30da9aa635823d47e6bfca5d062d/avatars/019df57d-1bcf-715b-9117-a88dfcc97d1f.jpg",
-      "file": "assets/f479ff7c1dc5-019df57d-1bcf-715b-9117-a88dfcc97d1f.jpg",
-      "bytes": 890
+      "file": "assets/f479ff7c1dc5-019df57d-1bcf-715b-9117-a88dfcc97d1f.webp",
+      "bytes": 814
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/51d6736c73d2d3279a3a8c6bdf8dca99c15234ad4bd2322671961dc5c3996ee7/publish/cover-square/019dd59a-c538-795c-88a8-3d5666cd6c8f.png",
-      "file": "assets/677b79c4b3aa-019dd59a-c538-795c-88a8-3d5666cd6c8f.png",
+      "file": "assets/677b79c4b3aa-019dd59a-c538-795c-88a8-3d5666cd6c8f.webp",
       "bytes": 29788
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/51d6736c73d2d3279a3a8c6bdf8dca99c15234ad4bd2322671961dc5c3996ee7/avatars/0191c586-7f42-7ad3-af86-99d3714c496b.jpg",
-      "file": "assets/7d4760c18439-0191c586-7f42-7ad3-af86-99d3714c496b.jpg",
+      "file": "assets/7d4760c18439-0191c586-7f42-7ad3-af86-99d3714c496b.webp",
       "bytes": 706
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd398-dff1-7de1-bcb4-15044a220a6a.png",
-      "file": "assets/9bdbf1eddd04-019dd398-dff1-7de1-bcb4-15044a220a6a.png",
+      "file": "assets/9bdbf1eddd04-019dd398-dff1-7de1-bcb4-15044a220a6a.webp",
       "bytes": 29650
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/536cd4f3e05cbebb2b6b60dc4a503ce09858138b30668d404fccf20a43d8a86a/publish/cover-portrait/01978af4-3ca3-7640-9ea5-448d57ba9753.png",
-      "file": "assets/71075dda0fc4-01978af4-3ca3-7640-9ea5-448d57ba9753.png",
+      "file": "assets/71075dda0fc4-01978af4-3ca3-7640-9ea5-448d57ba9753.webp",
       "bytes": 15522
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/536cd4f3e05cbebb2b6b60dc4a503ce09858138b30668d404fccf20a43d8a86a/avatars/01978b98-5371-76bf-96fc-923fc242515d.jpg",
-      "file": "assets/4df7ffeb12d6-01978b98-5371-76bf-96fc-923fc242515d.jpg",
+      "file": "assets/4df7ffeb12d6-01978b98-5371-76bf-96fc-923fc242515d.webp",
       "bytes": 358
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019dd39d-c148-7a65-817b-73f2978a5494.png",
-      "file": "assets/00773ca963f3-019dd39d-c148-7a65-817b-73f2978a5494.png",
+      "file": "assets/00773ca963f3-019dd39d-c148-7a65-817b-73f2978a5494.webp",
       "bytes": 37032
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/f528e6008f5c002301a8c9d7add080aa66f4f13b1728f7446c63bf0e25b7f639/publish/cover-square/01977b49-4467-7059-8c97-08193281a362.png",
-      "file": "assets/66e5ee2961d5-01977b49-4467-7059-8c97-08193281a362.png",
+      "file": "assets/66e5ee2961d5-01977b49-4467-7059-8c97-08193281a362.webp",
       "bytes": 9716
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/f528e6008f5c002301a8c9d7add080aa66f4f13b1728f7446c63bf0e25b7f639/avatars/019ea94b-57c3-7d30-bade-b7df91a3cc70.jpg",
-      "file": "assets/af919ab8dc5d-019ea94b-57c3-7d30-bade-b7df91a3cc70.jpg",
+      "file": "assets/af919ab8dc5d-019ea94b-57c3-7d30-bade-b7df91a3cc70.webp",
       "bytes": 988
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/497f1473a5cdf3cdb76ee601cee31a4f2f6b579a62b04a4a76e0d82c009c7a9f/publish/cover-portrait/01a01b5b-4189-71d1-922d-518b64556919.png",
-      "file": "assets/44f08865434e-01a01b5b-4189-71d1-922d-518b64556919.png",
+      "file": "assets/44f08865434e-01a01b5b-4189-71d1-922d-518b64556919.webp",
       "bytes": 35102
     },
     {
@@ -150,87 +150,87 @@
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/497f1473a5cdf3cdb76ee601cee31a4f2f6b579a62b04a4a76e0d82c009c7a9f/avatars/01a016c2-4e0e-74f1-8a80-883355112316.jpg",
-      "file": "assets/e9d5ddff4da7-01a016c2-4e0e-74f1-8a80-883355112316.jpg",
-      "bytes": 786
+      "file": "assets/e9d5ddff4da7-01a016c2-4e0e-74f1-8a80-883355112316.webp",
+      "bytes": 712
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/6733cc0ad625fe348678b107849c4abf577b621673773a9c8b51baeb7796e353/publish/cover-portrait/019df45d-01d9-7436-b96b-011acb3d712e.png",
-      "file": "assets/3fa5069b206e-019df45d-01d9-7436-b96b-011acb3d712e.png",
+      "file": "assets/3fa5069b206e-019df45d-01d9-7436-b96b-011acb3d712e.webp",
       "bytes": 22752
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/6733cc0ad625fe348678b107849c4abf577b621673773a9c8b51baeb7796e353/avatars/019df435-e13a-794e-a8b1-bb3454217ec9.jpg",
-      "file": "assets/2d870ec909e3-019df435-e13a-794e-a8b1-bb3454217ec9.jpg",
+      "file": "assets/2d870ec909e3-019df435-e13a-794e-a8b1-bb3454217ec9.webp",
       "bytes": 328
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/8e69d27a23f92476137986870af4943c11dc25f5d37a2c151447e9ee1aff576c/publish/cover-portrait/019d8ca1-710b-740b-b1b5-b7b005a55f53.png",
-      "file": "assets/5220aeded839-019d8ca1-710b-740b-b1b5-b7b005a55f53.png",
+      "file": "assets/5220aeded839-019d8ca1-710b-740b-b1b5-b7b005a55f53.webp",
       "bytes": 24770
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/8e69d27a23f92476137986870af4943c11dc25f5d37a2c151447e9ee1aff576c/avatars/019b941d-930f-7a09-8c3e-8862960e7d8b.jpg",
-      "file": "assets/e612cead2542-019b941d-930f-7a09-8c3e-8862960e7d8b.jpg",
+      "file": "assets/e612cead2542-019b941d-930f-7a09-8c3e-8862960e7d8b.webp",
       "bytes": 770
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/e81002d71de3690b857d56ea82fccbcf92256c0adcf685b1c82e010eb3f9d013/publish/cover-portrait/019d2a9e-d2c6-7578-906a-2ca64d5b9eed.png",
-      "file": "assets/99fcdc918e72-019d2a9e-d2c6-7578-906a-2ca64d5b9eed.png",
+      "file": "assets/99fcdc918e72-019d2a9e-d2c6-7578-906a-2ca64d5b9eed.webp",
       "bytes": 40444
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/e81002d71de3690b857d56ea82fccbcf92256c0adcf685b1c82e010eb3f9d013/avatars/019addd0-3cef-7203-9032-dbdeb6d12ae9.jpg",
-      "file": "assets/177861f3b87c-019addd0-3cef-7203-9032-dbdeb6d12ae9.jpg",
+      "file": "assets/177861f3b87c-019addd0-3cef-7203-9032-dbdeb6d12ae9.webp",
       "bytes": 814
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-square/019b3aa7-48e7-705d-9994-0fe260762633.png",
-      "file": "assets/54beb400dc06-019b3aa7-48e7-705d-9994-0fe260762633.png",
+      "file": "assets/54beb400dc06-019b3aa7-48e7-705d-9994-0fe260762633.webp",
       "bytes": 22074
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/avatars/0197108a-8dec-7056-83f8-f8bd09386fcc.jpg",
-      "file": "assets/13e2c749b95c-0197108a-8dec-7056-83f8-f8bd09386fcc.jpg",
+      "file": "assets/13e2c749b95c-0197108a-8dec-7056-83f8-f8bd09386fcc.webp",
       "bytes": 802
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-square/019b3aa6-de0b-705d-b206-edeba742ccf9.png",
-      "file": "assets/d691791673b9-019b3aa6-de0b-705d-b206-edeba742ccf9.png",
+      "file": "assets/d691791673b9-019b3aa6-de0b-705d-b206-edeba742ccf9.webp",
       "bytes": 21456
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/019b3aa5-b9d4-702e-8e23-786cb581c424.png",
-      "file": "assets/dd43c5f3283c-019b3aa5-b9d4-702e-8e23-786cb581c424.png",
+      "file": "assets/dd43c5f3283c-019b3aa5-b9d4-702e-8e23-786cb581c424.webp",
       "bytes": 22130
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/019b3a8a-a2db-7249-89b7-197781083a66.png",
-      "file": "assets/cd855869dba0-019b3a8a-a2db-7249-89b7-197781083a66.png",
+      "file": "assets/cd855869dba0-019b3a8a-a2db-7249-89b7-197781083a66.webp",
       "bytes": 24516
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/34fa51971c764f996e895e6fb734917a6358ca4684ec2111cd7848b3787e4cba/publish/cover-square/019a0576-1835-761a-8f76-897208dc3e42.png",
-      "file": "assets/08d21cf2f27d-019a0576-1835-761a-8f76-897208dc3e42.png",
+      "file": "assets/08d21cf2f27d-019a0576-1835-761a-8f76-897208dc3e42.webp",
       "bytes": 19924
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:48,q:75,f:webp/default-avatar/meshy.png",
-      "file": "assets/28d407c4736f-meshy.png",
+      "file": "assets/28d407c4736f-meshy.webp",
       "bytes": 400
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/0197affa-17ab-7dde-8d56-8bfd5b339e2f.png",
-      "file": "assets/01e5a6beaf97-0197affa-17ab-7dde-8d56-8bfd5b339e2f.png",
+      "file": "assets/01e5a6beaf97-0197affa-17ab-7dde-8d56-8bfd5b339e2f.webp",
       "bytes": 20610
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/d0a53262f76faeff298290995a14914fc25dcf907c7dc913a3ec5055e16e9d0c/publish/cover-portrait/0197ad56-7090-7030-a5ef-a60b8706d035.png",
-      "file": "assets/d69992fbdf51-0197ad56-7090-7030-a5ef-a60b8706d035.png",
+      "file": "assets/d69992fbdf51-0197ad56-7090-7030-a5ef-a60b8706d035.webp",
       "bytes": 15236
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:384,q:75,f:webp/uploads/prod/073694a405e641ed86aa21e000d34fbae680c05ba202ea5a0ebddac0470ab1c3/publish/cover-portrait/0197a1c4-c8c3-7e83-afe3-0c451bd82f76.png",
-      "file": "assets/11d81b600cab-0197a1c4-c8c3-7e83-afe3-0c451bd82f76.png",
+      "file": "assets/11d81b600cab-0197a1c4-c8c3-7e83-afe3-0c451bd82f76.webp",
       "bytes": 20660
     },
     {
@@ -240,23 +240,23 @@
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:640,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019e0138-c194-7ccd-9cf6-4921827508e7.png",
-      "file": "assets/543eb7075bab-019e0138-c194-7ccd-9cf6-4921827508e7.png",
+      "file": "assets/543eb7075bab-019e0138-c194-7ccd-9cf6-4921827508e7.webp",
       "bytes": 31586
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:640,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd38b-3c36-741e-a998-61d8127b2741.png",
-      "file": "assets/0ebd47f8fc24-019dd38b-3c36-741e-a998-61d8127b2741.png",
+      "file": "assets/0ebd47f8fc24-019dd38b-3c36-741e-a998-61d8127b2741.webp",
       "bytes": 26192
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:640,q:75,f:webp/uploads/prod/8d88d414c125480bc1e6edb44bdb1dd26e8b30da9aa635823d47e6bfca5d062d/publish/cover-landscape/019dd6a9-2d46-7a55-823d-f6b773f149cc.png",
-      "file": "assets/4c7ddeeefa2e-019dd6a9-2d46-7a55-823d-f6b773f149cc.png",
+      "file": "assets/4c7ddeeefa2e-019dd6a9-2d46-7a55-823d-f6b773f149cc.webp",
       "bytes": 28168
     },
     {
       "url": "https://cdn.meshy.ai/landing-assets/og-images/website_og.webp",
       "file": "assets/2ec351b6bee9-website_og.webp",
-      "bytes": 163546
+      "bytes": 145158
     },
     {
       "url": "https://www.meshy.ai/favicon.ico?favicon.1yyl_oveqrzpy.ico",
@@ -266,22 +266,22 @@
     {
       "url": "https://www.meshy.ai/icon1.png?icon1.096grnl0ekqcw.png",
       "file": "assets/8c78d97eb6f6-icon1.png",
-      "bytes": 930
+      "bytes": 846
     },
     {
       "url": "https://www.meshy.ai/icon2.png?icon2.2w_op0xn0lcxk.png",
       "file": "assets/b9c4fc62bc05-icon2.png",
-      "bytes": 2851
+      "bytes": 2600
     },
     {
       "url": "https://www.meshy.ai/icon3.png?icon3.2rgbsx6r7frix.png",
-      "file": "assets/3625e314f1ac-icon3.png",
-      "bytes": 269459
+      "file": "assets/3625e314f1ac-icon3.webp",
+      "bytes": 170820
     },
     {
       "url": "https://www.meshy.ai/apple-icon.png?apple-icon.1x2jivih2_8ii.png",
       "file": "assets/3d0a6ab4e400-apple-icon.png",
-      "bytes": 44184
+      "bytes": 38109
     },
     {
       "url": "https://cdn.meshy.ai/webapp-build-assets/production/_next/static/media/2c55a0e60120577a-s.0-dom-5bn10r2.woff2",
@@ -660,233 +660,233 @@
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/cms/banners/images/banner-model%20editing-7f7fc783.png",
-      "file": "assets/88665ff890c8-banner-model-editing-7f7fc783.png",
+      "file": "assets/88665ff890c8-banner-model-editing-7f7fc783.webp",
       "bytes": 36934
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/cms/banners/images/image%20(2)-c150b323.png",
-      "file": "assets/2cff13f212b2-image--2--c150b323.png",
-      "bytes": 81666
+      "file": "assets/2cff13f212b2-image--2--c150b323.webp",
+      "bytes": 72554
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/cms/banners/images/App-3.4-3268358d.png",
-      "file": "assets/4c7f49b5b454-App-3.4-3268358d.png",
+      "file": "assets/4c7f49b5b454-App-3.4-3268358d.webp",
       "bytes": 88680
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/cms/banners/images/banner-model%20editing-7f7fc783.png",
-      "file": "assets/b74766f98b85-banner-model-editing-7f7fc783.png",
-      "bytes": 55106
+      "file": "assets/b74766f98b85-banner-model-editing-7f7fc783.webp",
+      "bytes": 50504
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019e0138-c932-7029-a071-9e56f2bfaad7.png",
-      "file": "assets/37cc1ecf08a6-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+      "file": "assets/37cc1ecf08a6-019e0138-c932-7029-a071-9e56f2bfaad7.webp",
       "bytes": 35196
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/cms/banners/images/App-3.4-3268358d.png",
-      "file": "assets/6d3fb034abed-App-3.4-3268358d.png",
+      "file": "assets/6d3fb034abed-App-3.4-3268358d.webp",
       "bytes": 125558
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/cms/banners/images/image%20(2)-c150b323.png",
-      "file": "assets/a3a802c9aa9a-image--2--c150b323.png",
-      "bytes": 52712
+      "file": "assets/a3a802c9aa9a-image--2--c150b323.webp",
+      "bytes": 47426
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
-      "file": "assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+      "file": "assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.webp",
       "bytes": 40114
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
-      "file": "assets/309171febf50-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+      "file": "assets/309171febf50-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.webp",
       "bytes": 40114
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/51d6736c73d2d3279a3a8c6bdf8dca99c15234ad4bd2322671961dc5c3996ee7/publish/cover-square/019dd59a-c538-795c-88a8-3d5666cd6c8f.png",
-      "file": "assets/03d57604f0cc-019dd59a-c538-795c-88a8-3d5666cd6c8f.png",
+      "file": "assets/03d57604f0cc-019dd59a-c538-795c-88a8-3d5666cd6c8f.webp",
       "bytes": 60152
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/8d88d414c125480bc1e6edb44bdb1dd26e8b30da9aa635823d47e6bfca5d062d/publish/cover-landscape/019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
-      "file": "assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+      "file": "assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.webp",
       "bytes": 32774
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019e0138-c932-7029-a071-9e56f2bfaad7.png",
-      "file": "assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+      "file": "assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.webp",
       "bytes": 35196
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/8d88d414c125480bc1e6edb44bdb1dd26e8b30da9aa635823d47e6bfca5d062d/publish/cover-landscape/019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
-      "file": "assets/2ad0310cd782-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+      "file": "assets/2ad0310cd782-019dd6a9-303a-71d6-b9ec-ba6df72238e2.webp",
       "bytes": 32774
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd398-dff1-7de1-bcb4-15044a220a6a.png",
-      "file": "assets/2ddf843d03a8-019dd398-dff1-7de1-bcb4-15044a220a6a.png",
+      "file": "assets/2ddf843d03a8-019dd398-dff1-7de1-bcb4-15044a220a6a.webp",
       "bytes": 33980
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/536cd4f3e05cbebb2b6b60dc4a503ce09858138b30668d404fccf20a43d8a86a/publish/cover-portrait/01978af4-3ca3-7640-9ea5-448d57ba9753.png",
-      "file": "assets/e87ba5689bd8-01978af4-3ca3-7640-9ea5-448d57ba9753.png",
+      "file": "assets/e87ba5689bd8-01978af4-3ca3-7640-9ea5-448d57ba9753.webp",
       "bytes": 14452
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/51d6736c73d2d3279a3a8c6bdf8dca99c15234ad4bd2322671961dc5c3996ee7/publish/cover-square/019dd59a-c538-795c-88a8-3d5666cd6c8f.png",
-      "file": "assets/7903c583a3f0-019dd59a-c538-795c-88a8-3d5666cd6c8f.png",
+      "file": "assets/7903c583a3f0-019dd59a-c538-795c-88a8-3d5666cd6c8f.webp",
       "bytes": 60152
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019dd39d-c148-7a65-817b-73f2978a5494.png",
-      "file": "assets/36ef5d9e963d-019dd39d-c148-7a65-817b-73f2978a5494.png",
+      "file": "assets/36ef5d9e963d-019dd39d-c148-7a65-817b-73f2978a5494.webp",
       "bytes": 36164
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/773a2a9532b91be7158e8c8c80b57e4c9fcf15ccf85afefa596795c8a6eddbdf/publish/cover-portrait/019dd398-dff1-7de1-bcb4-15044a220a6a.png",
-      "file": "assets/7c6dcbf87739-019dd398-dff1-7de1-bcb4-15044a220a6a.png",
+      "file": "assets/7c6dcbf87739-019dd398-dff1-7de1-bcb4-15044a220a6a.webp",
       "bytes": 33980
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/f528e6008f5c002301a8c9d7add080aa66f4f13b1728f7446c63bf0e25b7f639/publish/cover-square/01977b49-4467-7059-8c97-08193281a362.png",
-      "file": "assets/3f7d9cd0359a-01977b49-4467-7059-8c97-08193281a362.png",
-      "bytes": 15390
+      "file": "assets/3f7d9cd0359a-01977b49-4467-7059-8c97-08193281a362.webp",
+      "bytes": 13940
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/536cd4f3e05cbebb2b6b60dc4a503ce09858138b30668d404fccf20a43d8a86a/publish/cover-portrait/01978af4-3ca3-7640-9ea5-448d57ba9753.png",
-      "file": "assets/17c90fd776d2-01978af4-3ca3-7640-9ea5-448d57ba9753.png",
+      "file": "assets/17c90fd776d2-01978af4-3ca3-7640-9ea5-448d57ba9753.webp",
       "bytes": 14452
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/497f1473a5cdf3cdb76ee601cee31a4f2f6b579a62b04a4a76e0d82c009c7a9f/publish/cover-portrait/01a01b5b-4189-71d1-922d-518b64556919.png",
-      "file": "assets/058d5c05228b-01a01b5b-4189-71d1-922d-518b64556919.png",
+      "file": "assets/058d5c05228b-01a01b5b-4189-71d1-922d-518b64556919.webp",
       "bytes": 86530
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/6856f823b63550a0377040f7e9816d23a760379b058b831e2982b3613b610703/publish/cover-portrait/019dd39d-c148-7a65-817b-73f2978a5494.png",
-      "file": "assets/400941b3809d-019dd39d-c148-7a65-817b-73f2978a5494.png",
+      "file": "assets/400941b3809d-019dd39d-c148-7a65-817b-73f2978a5494.webp",
       "bytes": 36164
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/f528e6008f5c002301a8c9d7add080aa66f4f13b1728f7446c63bf0e25b7f639/publish/cover-square/01977b49-4467-7059-8c97-08193281a362.png",
-      "file": "assets/bdaf2f2e4d42-01977b49-4467-7059-8c97-08193281a362.png",
-      "bytes": 15390
+      "file": "assets/bdaf2f2e4d42-01977b49-4467-7059-8c97-08193281a362.webp",
+      "bytes": 13940
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/6733cc0ad625fe348678b107849c4abf577b621673773a9c8b51baeb7796e353/publish/cover-portrait/019df45d-01d9-7436-b96b-011acb3d712e.png",
-      "file": "assets/7760b5af70df-019df45d-01d9-7436-b96b-011acb3d712e.png",
+      "file": "assets/7760b5af70df-019df45d-01d9-7436-b96b-011acb3d712e.webp",
       "bytes": 27060
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/497f1473a5cdf3cdb76ee601cee31a4f2f6b579a62b04a4a76e0d82c009c7a9f/publish/cover-portrait/01a01b5b-4189-71d1-922d-518b64556919.png",
-      "file": "assets/ee78b5fa69a7-01a01b5b-4189-71d1-922d-518b64556919.png",
+      "file": "assets/ee78b5fa69a7-01a01b5b-4189-71d1-922d-518b64556919.webp",
       "bytes": 80208
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/6733cc0ad625fe348678b107849c4abf577b621673773a9c8b51baeb7796e353/publish/cover-portrait/019df45d-01d9-7436-b96b-011acb3d712e.png",
-      "file": "assets/38f644a35745-019df45d-01d9-7436-b96b-011acb3d712e.png",
+      "file": "assets/38f644a35745-019df45d-01d9-7436-b96b-011acb3d712e.webp",
       "bytes": 27060
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/8e69d27a23f92476137986870af4943c11dc25f5d37a2c151447e9ee1aff576c/publish/cover-portrait/019d8ca1-710b-740b-b1b5-b7b005a55f53.png",
-      "file": "assets/1d5140d19619-019d8ca1-710b-740b-b1b5-b7b005a55f53.png",
+      "file": "assets/1d5140d19619-019d8ca1-710b-740b-b1b5-b7b005a55f53.webp",
       "bytes": 35710
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/8e69d27a23f92476137986870af4943c11dc25f5d37a2c151447e9ee1aff576c/publish/cover-portrait/019d8ca1-710b-740b-b1b5-b7b005a55f53.png",
-      "file": "assets/b16c5cf65a65-019d8ca1-710b-740b-b1b5-b7b005a55f53.png",
+      "file": "assets/b16c5cf65a65-019d8ca1-710b-740b-b1b5-b7b005a55f53.webp",
       "bytes": 35710
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/e81002d71de3690b857d56ea82fccbcf92256c0adcf685b1c82e010eb3f9d013/publish/cover-portrait/019d2a9e-d2c6-7578-906a-2ca64d5b9eed.png",
-      "file": "assets/e79d0c277549-019d2a9e-d2c6-7578-906a-2ca64d5b9eed.png",
+      "file": "assets/e79d0c277549-019d2a9e-d2c6-7578-906a-2ca64d5b9eed.webp",
       "bytes": 61294
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/e81002d71de3690b857d56ea82fccbcf92256c0adcf685b1c82e010eb3f9d013/publish/cover-portrait/019d2a9e-d2c6-7578-906a-2ca64d5b9eed.png",
-      "file": "assets/39f52909bb9f-019d2a9e-d2c6-7578-906a-2ca64d5b9eed.png",
+      "file": "assets/39f52909bb9f-019d2a9e-d2c6-7578-906a-2ca64d5b9eed.webp",
       "bytes": 61294
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-square/019b3aa7-48e7-705d-9994-0fe260762633.png",
-      "file": "assets/a5677f9063c6-019b3aa7-48e7-705d-9994-0fe260762633.png",
+      "file": "assets/a5677f9063c6-019b3aa7-48e7-705d-9994-0fe260762633.webp",
       "bytes": 33336
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-square/019b3aa7-48e7-705d-9994-0fe260762633.png",
-      "file": "assets/615b87672a6f-019b3aa7-48e7-705d-9994-0fe260762633.png",
+      "file": "assets/615b87672a6f-019b3aa7-48e7-705d-9994-0fe260762633.webp",
       "bytes": 33336
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-square/019b3aa6-de0b-705d-b206-edeba742ccf9.png",
-      "file": "assets/cee0c102a2c0-019b3aa6-de0b-705d-b206-edeba742ccf9.png",
+      "file": "assets/cee0c102a2c0-019b3aa6-de0b-705d-b206-edeba742ccf9.webp",
       "bytes": 29548
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-square/019b3aa6-de0b-705d-b206-edeba742ccf9.png",
-      "file": "assets/97e03c6a7a59-019b3aa6-de0b-705d-b206-edeba742ccf9.png",
+      "file": "assets/97e03c6a7a59-019b3aa6-de0b-705d-b206-edeba742ccf9.webp",
       "bytes": 29548
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/019b3aa5-b9d4-702e-8e23-786cb581c424.png",
-      "file": "assets/8e4a56749a99-019b3aa5-b9d4-702e-8e23-786cb581c424.png",
+      "file": "assets/8e4a56749a99-019b3aa5-b9d4-702e-8e23-786cb581c424.webp",
       "bytes": 24152
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/019b3aa5-b9d4-702e-8e23-786cb581c424.png",
-      "file": "assets/2923b21ca1ed-019b3aa5-b9d4-702e-8e23-786cb581c424.png",
+      "file": "assets/2923b21ca1ed-019b3aa5-b9d4-702e-8e23-786cb581c424.webp",
       "bytes": 24152
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/019b3a8a-a2db-7249-89b7-197781083a66.png",
-      "file": "assets/dd01bacc7078-019b3a8a-a2db-7249-89b7-197781083a66.png",
+      "file": "assets/dd01bacc7078-019b3a8a-a2db-7249-89b7-197781083a66.webp",
       "bytes": 27504
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/019b3a8a-a2db-7249-89b7-197781083a66.png",
-      "file": "assets/994ce383bcdd-019b3a8a-a2db-7249-89b7-197781083a66.png",
+      "file": "assets/994ce383bcdd-019b3a8a-a2db-7249-89b7-197781083a66.webp",
       "bytes": 27504
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/34fa51971c764f996e895e6fb734917a6358ca4684ec2111cd7848b3787e4cba/publish/cover-square/019a0576-1835-761a-8f76-897208dc3e42.png",
-      "file": "assets/8994f88e69df-019a0576-1835-761a-8f76-897208dc3e42.png",
-      "bytes": 31656
+      "file": "assets/8994f88e69df-019a0576-1835-761a-8f76-897208dc3e42.webp",
+      "bytes": 28270
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/0197affa-17ab-7dde-8d56-8bfd5b339e2f.png",
-      "file": "assets/8f86483613ce-0197affa-17ab-7dde-8d56-8bfd5b339e2f.png",
-      "bytes": 23870
+      "file": "assets/8f86483613ce-0197affa-17ab-7dde-8d56-8bfd5b339e2f.webp",
+      "bytes": 21932
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/34fa51971c764f996e895e6fb734917a6358ca4684ec2111cd7848b3787e4cba/publish/cover-square/019a0576-1835-761a-8f76-897208dc3e42.png",
-      "file": "assets/ac717ee8b835-019a0576-1835-761a-8f76-897208dc3e42.png",
-      "bytes": 31656
+      "file": "assets/ac717ee8b835-019a0576-1835-761a-8f76-897208dc3e42.webp",
+      "bytes": 28270
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/7571c9d204e08fdf17365dc2dcd964c66ac7077c2cb71d5067a9804df09333fa/publish/cover-portrait/0197affa-17ab-7dde-8d56-8bfd5b339e2f.png",
-      "file": "assets/0fb9af8ae122-0197affa-17ab-7dde-8d56-8bfd5b339e2f.png",
-      "bytes": 23870
+      "file": "assets/0fb9af8ae122-0197affa-17ab-7dde-8d56-8bfd5b339e2f.webp",
+      "bytes": 21932
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/d0a53262f76faeff298290995a14914fc25dcf907c7dc913a3ec5055e16e9d0c/publish/cover-portrait/0197ad56-7090-7030-a5ef-a60b8706d035.png",
-      "file": "assets/203853ccb523-0197ad56-7090-7030-a5ef-a60b8706d035.png",
+      "file": "assets/203853ccb523-0197ad56-7090-7030-a5ef-a60b8706d035.webp",
       "bytes": 15388
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/d0a53262f76faeff298290995a14914fc25dcf907c7dc913a3ec5055e16e9d0c/publish/cover-portrait/0197ad56-7090-7030-a5ef-a60b8706d035.png",
-      "file": "assets/529e44569e4f-0197ad56-7090-7030-a5ef-a60b8706d035.png",
+      "file": "assets/529e44569e4f-0197ad56-7090-7030-a5ef-a60b8706d035.webp",
       "bytes": 15388
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:750,q:75,f:webp/uploads/prod/073694a405e641ed86aa21e000d34fbae680c05ba202ea5a0ebddac0470ab1c3/publish/cover-portrait/0197a1c4-c8c3-7e83-afe3-0c451bd82f76.png",
-      "file": "assets/4d0f159d0928-0197a1c4-c8c3-7e83-afe3-0c451bd82f76.png",
-      "bytes": 23740
+      "file": "assets/4d0f159d0928-0197a1c4-c8c3-7e83-afe3-0c451bd82f76.webp",
+      "bytes": 21440
     },
     {
       "url": "https://cdn.meshy.ai/ti_w:1080,q:75,f:webp/uploads/prod/073694a405e641ed86aa21e000d34fbae680c05ba202ea5a0ebddac0470ab1c3/publish/cover-portrait/0197a1c4-c8c3-7e83-afe3-0c451bd82f76.png",
-      "file": "assets/d7eff8ddacf9-0197a1c4-c8c3-7e83-afe3-0c451bd82f76.png",
-      "bytes": 23740
+      "file": "assets/d7eff8ddacf9-0197a1c4-c8c3-7e83-afe3-0c451bd82f76.webp",
+      "bytes": 21440
     }
   ]
 }

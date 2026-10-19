@@ -219,10 +219,10 @@
       quickContent.className = 'r2-quick-content';
       quickContent.setAttribute('aria-label','常用工具');
       const tools = [
-        ['image','图像生成','文字或参考图生成图像',['文生图','图生图'],'/assets/9bdbf1eddd04-019dd398-dff1-7de1-bcb4-15044a220a6a.png'],
-        ['model','3D 模型','图片或文字生成 3D 模型',['3D 生成','贴图','纹理编辑'],'/assets/37cc1ecf08a6-019e0138-c932-7029-a071-9e56f2bfaad7.png'],
+        ['image','图像生成','文字或参考图生成图像',['文生图','图生图'],'/assets/9bdbf1eddd04-019dd398-dff1-7de1-bcb4-15044a220a6a.webp'],
+        ['model','3D 模型','图片或文字生成 3D 模型',['3D 生成','贴图','纹理编辑'],'/assets/37cc1ecf08a6-019e0138-c932-7029-a071-9e56f2bfaad7.webp'],
         ['print','3D 打印','检查模型，导出打印文件',['多色打印','STL / 3MF'],'/assets/redesign2/print-skeleton-wolf.webp'],
-        ['animate','动画','绑定骨骼，添加动作',['自动绑骨','动作库'],'/assets/71075dda0fc4-01978af4-3ca3-7640-9ea5-448d57ba9753.png']
+        ['animate','动画','绑定骨骼，添加动作',['自动绑骨','动作库'],'/assets/71075dda0fc4-01978af4-3ca3-7640-9ea5-448d57ba9753.webp']
       ];
       quickContent.innerHTML = `<div class="r2-banners">${tools.map(([key,name,desc,modes,image])=>`<button type="button" class="r2-banner r2-banner-${key}" aria-label="打开${name}：${desc}"><span class="r2-banner-thumb"><img src="${image}" alt="" width="180" height="180" class="r2-banner-art"></span><span class="r2-banner-body"><span class="r2-banner-name">${icons[key]}<span>${name}</span></span><span class="r2-banner-desc">${desc}</span><span class="r2-banner-modes">${modes.map(mode=>`<span>${mode}</span>`).join('')}</span></span><span class="r2-banner-arrow">${arrow}</span></button>`).join('')}</div>`;
       // Both states stay mounted in one measured container. Retargeting its real

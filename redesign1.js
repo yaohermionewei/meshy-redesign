@@ -12,12 +12,12 @@
     ['帮我绑定骨骼', '/assets/redesign1/project/asset-04.webp', '2026年10月9日', true],
     ['Unity Unreal 与 Blender 插件下载', '/assets/redesign1/project/canvas-00.webp', '2026年9月23日'],
     ['Codex调用生成能力的MCP', '/assets/redesign1/project/asset-05.webp', '2026年9月22日', true],
-    ['游戏动画角色模型', '/assets/17c90fd776d2-01978af4-3ca3-7640-9ea5-448d57ba9753.png', '2026年9月19日', true],
-    ['3D游戏', '/assets/2ad0310cd782-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png', '2026年9月18日', true],
+    ['游戏动画角色模型', '/assets/17c90fd776d2-01978af4-3ca3-7640-9ea5-448d57ba9753.webp', '2026年9月19日', true],
+    ['3D游戏', '/assets/2ad0310cd782-019dd6a9-303a-71d6-b9ec-ba6df72238e2.webp', '2026年9月18日', true],
     ['做成游戏3d角色，后续要绑定骨骼的', '/assets/redesign1/project/asset-02.webp', '2026年9月17日', true],
-    ['游戏主角3D模型', '/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png', '2026年9月17日', true],
+    ['游戏主角3D模型', '/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.webp', '2026年9月17日', true],
     ['低面数角色面部优化', '/assets/agent/recent-face.webp', '2026年9月16日'],
-    ['未命名', '/assets/08d21cf2f27d-019a0576-1835-761a-8f76-897208dc3e42.png', '2026年9月15日', true],
+    ['未命名', '/assets/08d21cf2f27d-019a0576-1835-761a-8f76-897208dc3e42.webp', '2026年9月15日', true],
     ['3D资产拆件与骨骼绑定', '/assets/redesign2/print-skeleton-wolf.webp', '2026年9月12日', true]
   ];
   const root = document.documentElement;
@@ -207,7 +207,7 @@
     });
 
     const skillCards = [
-      ['中世纪游戏道具','/assets/203853ccb523-0197ad56-7090-7030-a5ef-a60b8706d035.png',true],
+      ['中世纪游戏道具','/assets/203853ccb523-0197ad56-7090-7030-a5ef-a60b8706d035.webp',true],
       ['角色动画','/assets/redesign1/project/asset-04.webp',true],
       ['游戏场景搭建','/assets/agent/home-batch-models.webp',false],
       ['草图转手办','/assets/agent/home-sketch-to-figurine.webp',false],

@@ -38,6 +38,14 @@ npm run preview
 
 `dist/` 是可直接托管的静态产物。页面运行时没有外部资源或 API 请求。
 
+## 图片资源与压缩
+
+线上图片统一使用 WebP（297 张）；仅为兼容性保留 3 张 PNG 触屏 / 小尺寸网站图标，SVG 与 ICO 保持原格式。已统一 89 个原先使用 `.png` / `.jpg` 后缀的路径及所有运行时引用，并修正 512px 网站图标的 MIME 类型。原站 URL 仍保存在资源清单中作为来源记录。
+
+300 张图片合计从 6,455,198 字节降至 6,032,331 字节，减少 6.55%。原资源大部分已经是 WebP，继续压缩的空间有限。所有图片保留原尺寸及透明通道，完整记录见 `verification/image-optimization.json`，页面检查与首屏下载量见 `verification/IMAGE-OPTIMIZATION.md`。
+
+日后添加图片时可运行 `python3 scripts/optimize-images.py`，再执行 `npm run build`。该可选开发工具需要 Pillow 和 numpy；部署构建无需安装 Python 依赖。工具按文件哈希跳过已处理的图片，防止重复有损编码，仅保留通过画质检查的压缩结果。
+
 ## 文件
 
 - `src/document.html`：文档、原始字体变量、SVG 渐变定义与本地资源引用。
