@@ -21,6 +21,29 @@
     ['3D资产拆件与骨骼绑定', '/assets/redesign2/print-skeleton-wolf.webp', '2026年9月12日', true]
   ];
   const root = document.documentElement;
+  // Mock conversation. The composer's message travels to the project page through
+  // sessionStorage; every Agent turn there is the same canned reply.
+  const cubeThumb = `data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="10" fill="#2a2a2a"/><path d="M24 12 35 18v12l-11 6-11-6V18Z" fill="none" stroke="#c5f955" stroke-width="2" stroke-linejoin="round"/><path d="M13 18l11 6 11-6M24 24v12" fill="none" stroke="#c5f955" stroke-width="2" stroke-linejoin="round"/></svg>')}`;
+  window.MeshyMockChat = {
+    key: 'meshy-mock-message',
+    reply: '对话是模拟的，可以去体验整体框架、资产和项目哦~',
+    // Local files become references: images are shrunk to a small preview, models get a cube icon.
+    async fileRef(file) {
+      if (!file.type.startsWith('image/')) return {kind: 'model', name: file.name, src: cubeThumb};
+      try {
+        const bitmap = await createImageBitmap(file);
+        const scale = Math.min(1, 256 / Math.max(bitmap.width, bitmap.height));
+        const canvas = Object.assign(document.createElement('canvas'), {width: Math.round(bitmap.width * scale), height: Math.round(bitmap.height * scale)});
+        canvas.getContext('2d').drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+        return {kind: 'image', name: file.name, src: canvas.toDataURL('image/webp', .85)};
+      } catch { return {kind: 'image', name: file.name, src: cubeThumb}; }
+    },
+    save(message) { try { sessionStorage.setItem(this.key, JSON.stringify(message)); } catch {} },
+    take() {
+      try { const value = sessionStorage.getItem(this.key); sessionStorage.removeItem(this.key); return value ? JSON.parse(value) : null; }
+      catch { return null; }
+    }
+  };
   const icon = (paths, extra = '') => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${paths}</svg>`;
   const icons = {
     image: '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="/assets/redesign1/navigation.svg#image"></use></svg>',
@@ -162,12 +185,16 @@
     const imageInput = agent.querySelector('.r1-file-input');
     // Assets picked in the dialog appear above the prompt as removable references.
     const refs = agent.querySelector('.r1-composer-refs');
-    const syncRefs = () => { refs.hidden = !refs.children.length; refs.parentElement.classList.toggle('has-refs', !refs.hidden); };
+    const draft = agent.querySelector('textarea');
+    const send = agent.querySelector('.r1-send');
+    const syncSend = () => { send.disabled = !draft.value.trim() && !refs.children.length; };
+    const syncRefs = () => { refs.hidden = !refs.children.length; refs.parentElement.classList.toggle('has-refs', !refs.hidden); syncSend(); };
     function addAssetRef(asset) {
       if (!asset || [...refs.children].some(chip => chip.dataset.src === asset.src)) return;
       const chip = document.createElement('span');
-      chip.className = 'r1-ref-chip';
+      chip.className = `r1-ref-chip${asset.kind === 'skill' ? ' is-skill' : ''}`;
       chip.dataset.src = asset.src;
+      chip.dataset.kind = asset.kind || 'asset';
       chip.title = asset.name;
       chip.innerHTML = `<img src="${asset.src}" alt=""><span></span><button type="button" title="移除引用"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>`;
       chip.querySelector('span').textContent = asset.name;
@@ -177,6 +204,20 @@
       syncRefs();
     }
     const modelInput = agent.querySelector('.r1-model-input');
+    for (const input of [imageInput, modelInput]) input.addEventListener('change', async () => {
+      for (const file of input.files) addAssetRef(await window.MeshyMockChat.fileRef(file));
+      input.value = '';
+      draft.focus({preventScroll: true});
+    });
+    // 发送 opens the project with the message (mock: no request is made).
+    function sendMessage() {
+      if (send.disabled) return;
+      window.MeshyMockChat.save({text: draft.value.trim(), refs: [...refs.children].map(chip => ({name: chip.title, src: chip.dataset.src, kind: chip.dataset.kind}))});
+      location.href = `/redesign/${scheme}/project/arrietty`;
+    }
+    draft.addEventListener('input', syncSend);
+    draft.addEventListener('keydown', event => { if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) { event.preventDefault(); sendMessage(); } });
+    send.addEventListener('click', sendMessage);
     const setAttachmentMenu = open => {
       attachmentMenu.hidden = !open;
       attachmentMenu.inert = !open;
@@ -228,6 +269,15 @@
     expansion.inert = true;
     expansion.innerHTML = `<div class="r1-agent-modules"><section class="r1-featured" aria-labelledby="r1-skills-heading"><h2 id="r1-skills-heading">精选 skills</h2><div class="r1-skills-grid">${features}</div><button type="button" class="r1-skills-more">更多 ${icon('<path d="m9 6 6 6-6 6"/>')}</button></section><section class="r1-recent" aria-labelledby="r1-recent-heading"><div class="r1-section-head"><h2 id="r1-recent-heading">最近项目</h2><a class="r1-section-more" href="/redesign/${root.dataset.redesign}/projects" data-nav-link="projects" aria-label="全部项目">全部 ${icon('<path d="m9 6 6 6-6 6"/>')}</a></div><div class="r1-projects-grid">${projects}</div></section></div>`;
     hero.append(expansion);
+    // A featured skill joins the composer as a reference with its prompt template.
+    expansion.querySelector('.r1-skills-grid')?.addEventListener('click', event => {
+      const card = event.target.closest('.r1-skill-card');
+      if (!card) return;
+      addAssetRef({name: card.querySelector('span').textContent, src: card.querySelector('img').getAttribute('src'), kind: 'skill'});
+      draft.value = '这里是skills的提示词模板';
+      syncSend();
+      draft.focus({preventScroll: true});
+    });
     // 全部 opens the all-projects page; like the asset library, remember the mode
     // so 返回 (or the browser's back) lands on Agent again.
     expansion.querySelector('.r1-section-more')?.addEventListener('click', () => {

@@ -75,6 +75,11 @@ html[data-redesign] .r1-add svg { width: 16px !important; height: 16px !importan
 html[data-redesign] .r1-composer .r1-skills-control { padding-inline: 10px; border-radius: 16px; background: rgb(255 255 255 / .15); }
 html[data-redesign] .r1-composer .r1-behavior-control { color: #f6992b; }
 html[data-redesign] .r1-composer .r1-send { width: 28px; padding: 0; border-radius: 50%; color: rgb(255 255 255 / .25); background: rgb(255 255 255 / .06); }
+/* With text or a reference in the composer, 发送 lights up in the brand colour. */
+html[data-redesign] .r1-composer .r1-send { transition: color 160ms ease, background 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
+html[data-redesign] .r1-composer .r1-send:not(:disabled) { color: #111; background: linear-gradient(#d2ff6f, #b3ff1d); box-shadow: inset 0 1px 0 rgb(255 255 255 / .55), 0 0 12px rgb(197 249 85 / .25); cursor: pointer; }
+html[data-redesign] .r1-composer .r1-send:not(:disabled):hover { filter: brightness(1.06); }
+html[data-redesign] .r1-composer .r1-send:not(:disabled):active { transform: scale(.94); }
 html[data-redesign] .r1-attachment-menu {
   position: absolute; z-index: 8; bottom: 28px; left: 8px; display: flex; width: 180px; flex-direction: column; gap: 5px;
   padding: 4px; overflow: hidden; border: .5px solid rgb(255 255 255 / .08); border-radius: 12px;
@@ -196,3 +201,5 @@ html[data-redesign] .r1-composer .r1-ref-chip button { width: 20px; height: 20px
 html[data-redesign] .r1-composer .r1-ref-chip button:hover { color: #fff; background: rgb(255 255 255 / .1); }
 html[data-redesign] .r1-composer .r1-ref-chip button svg { width: 14px; height: 14px; }
 html[data-redesign] .r1-composer.has-refs textarea { padding-top: 8px; }
+/* A featured skill dropped into the composer reads as a skill, not an asset. */
+html[data-redesign] .r1-ref-chip.is-skill { box-shadow: inset 0 0 0 1px rgb(197 249 85 / .35); color: #e6f9b8; }

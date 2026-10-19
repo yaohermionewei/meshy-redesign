@@ -191,12 +191,12 @@
     });
     const removeIcon=custom('<path d="M18 6 6 18M6 6l12 12"/>');
     let selected=null;
-    const syncRefs=()=>{refs.hidden=!refs.children.length;composerElement.classList.toggle('has-refs',!refs.hidden)};
+    const syncRefs=()=>{refs.hidden=!refs.children.length;composerElement.classList.toggle('has-refs',!refs.hidden);syncSend()};
     // Assets picked in the dialog join the conversation as references next to the canvas one.
     function addAssetRef(asset) {
       if(!asset||refs.querySelector(`[data-ref="asset"][data-src="${CSS.escape(asset.src)}"]`))return;
       const chip=document.createElement('span');
-      chip.className='p1-ref-chip';chip.dataset.ref='asset';chip.dataset.src=asset.src;chip.title=asset.name;
+      chip.className=`p1-ref-chip${asset.kind==='skill'?' is-skill':''}`;chip.dataset.ref='asset';chip.dataset.src=asset.src;chip.dataset.kind=asset.kind||'asset';chip.title=asset.name;
       chip.innerHTML=`<img src="${asset.src}" alt=""><span></span><button type="button" title="移除引用">${removeIcon}</button>`;
       chip.querySelector('span').textContent=asset.name;
       chip.querySelector('button').setAttribute('aria-label',`移除引用 ${asset.name}`);
@@ -436,9 +436,46 @@
     });
     main.querySelector('.p1-asset-search input').addEventListener('input', event => { assetState.query = event.target.value.trim(); restartAssets(); });
     renderAssets();
+    // Mock conversation: sent messages appear in the thread and Agent always answers the same way.
+    const flowElement=main.querySelector('.p1-chat-flow');
+    const draft=composerElement.querySelector('textarea');
+    const sendButton=composerElement.querySelector('.r1-send');
+    // Queries the composer directly: syncRefs can run before these constants are reached.
+    function syncSend(){composerElement.querySelector('.r1-send').disabled=!composerElement.querySelector('textarea').value.trim()&&!refs.children.length}
+    const escapeHtml=text=>text.replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[char]);
+    const sentRef=ref=>`<span class="p1-msg-ref${ref.kind==='skill'?' is-skill':''}" title="${escapeHtml(ref.name)}"><img src="${ref.src}" alt=""><span>${escapeHtml(ref.name)}</span></span>`;
+    function postMessage({text='',refs:attached=[]}){
+      flowElement.insertAdjacentHTML('beforeend',`<div class="p1-msg p1-msg-user"><div class="p1-msg-bubble">${attached.map(sentRef).join('')}${text?`<span class="p1-msg-text">${escapeHtml(text)}</span>`:''}</div></div><div class="p1-msg p1-msg-agent p1-msg-pending" aria-label="Agent 正在回复"><span class="p1-typing"><i></i><i></i><i></i></span></div>`);
+      flowElement.scrollTop=flowElement.scrollHeight;
+      setTimeout(()=>{
+        flowElement.querySelector('.p1-msg-pending')?.remove();
+        flowElement.insertAdjacentHTML('beforeend',`<div class="p1-msg p1-msg-agent" data-testid="agent-assistant-message"><p>${window.MeshyMockChat?.reply||''}</p></div>`);
+        flowElement.scrollTop=flowElement.scrollHeight;
+      },700);
+    }
+    function sendFromComposer(){
+      if(sendButton.disabled)return;
+      const attached=[...refs.children].map(chip=>({name:chip.title,src:chip.querySelector('img').getAttribute('src'),kind:chip.dataset.kind||chip.dataset.ref}));
+      postMessage({text:draft.value.trim(),refs:attached});
+      draft.value='';
+      refs.querySelectorAll('[data-ref="asset"]').forEach(chip=>chip.remove());
+      select(null);
+      syncRefs();
+      draft.focus({preventScroll:true});
+    }
+    for(const input of [imageInput,modelInput])input.addEventListener('change',async()=>{
+      for(const file of input.files)addAssetRef(await window.MeshyMockChat.fileRef(file));
+      input.value='';draft.focus({preventScroll:true});
+    });
+    draft.addEventListener('input',syncSend);
+    draft.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing){event.preventDefault();sendFromComposer()}});
+    sendButton.addEventListener('click',sendFromComposer);
     syncProjects();
     paintCamera();
     const flow=main.querySelector('.p1-chat-flow');flow.scrollTop=flow.scrollHeight;
+    // A message sent from the home composer arrives here.
+    const pending=window.MeshyMockChat?.take();
+    if(pending&&(pending.text||pending.refs?.length))postMessage(pending);
     document.documentElement.dataset.projectReady='true';
   }
   window.MeshyProjectWorkspace={mount};
