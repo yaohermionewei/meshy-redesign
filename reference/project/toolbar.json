@@ -1,0 +1,89 @@
+{
+  "group": {
+    "background": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "gap": "4px",
+    "height": 32,
+    "padding": "0px",
+    "width": 118,
+    "x": 987,
+    "y": 8
+  },
+  "items": [
+    {
+      "background": "rgb(24, 24, 24)",
+      "borderRadius": "10px",
+      "gap": "normal",
+      "height": 32,
+      "padding": "0px 8px",
+      "svg": {
+        "background": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "gap": "normal",
+        "height": 24,
+        "padding": "0px",
+        "width": 18,
+        "x": 994,
+        "y": 12
+      },
+      "tag": "BUTTON",
+      "width": 32,
+      "x": 987,
+      "y": 8
+    },
+    {
+      "background": "rgb(24, 24, 24)",
+      "borderRadius": "10px",
+      "gap": "normal",
+      "height": 32,
+      "padding": "0px 8px",
+      "svg": {
+        "background": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "gap": "normal",
+        "height": 24,
+        "padding": "0px",
+        "width": 18,
+        "x": 1030,
+        "y": 12
+      },
+      "tag": "BUTTON",
+      "width": 32,
+      "x": 1023,
+      "y": 8
+    },
+    {
+      "background": "rgb(63, 63, 63)",
+      "borderRadius": "1.67772e+07px",
+      "gap": "normal",
+      "height": 12,
+      "padding": "0px",
+      "svg": null,
+      "tag": "DIV",
+      "width": 2,
+      "x": 1063,
+      "y": 18
+    },
+    {
+      "background": "rgb(24, 24, 24)",
+      "borderRadius": "10px",
+      "gap": "normal",
+      "height": 32,
+      "padding": "0px 8px",
+      "svg": {
+        "background": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "gap": "normal",
+        "height": 24,
+        "padding": "0px",
+        "width": 18,
+        "x": 1080,
+        "y": 12
+      },
+      "tag": "BUTTON",
+      "width": 32,
+      "x": 1073,
+      "y": 8
+    }
+  ]
+}

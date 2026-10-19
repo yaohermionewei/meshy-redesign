@@ -1,0 +1,198 @@
+/* Deliberately scoped: the captured originals retain their frozen presentation. */
+html[data-redesign] {
+  --r1-ease: cubic-bezier(.22, 1, .36, 1);
+  --r1-content-width: 940px;
+}
+/* Keep captured ambient effects frozen. Scheme one uses CSS transitions only. */
+html[data-redesign] *,
+html[data-redesign] *::before,
+html[data-redesign] *::after { animation: none !important; }
+html[data-redesign] [data-radix-scroll-area-viewport] { overflow-anchor: none; scroll-behavior: auto; }
+html[data-redesign] [class*="design4-prompt"] { animation: none !important; }
+html[data-redesign] .replica-create-mark { background: #dedede; }
+html[data-redesign] .replica-rail-icon .r1-create-icon { width: 20px; height: 20px; }
+html[data-redesign] .replica-rail-entry[aria-current="page"] .r1-create-icon { color: #c5f955; }
+html[data-redesign] .replica-rail-entry:hover { color: #fff; background: rgb(255 255 255 / .06); }
+html[data-redesign] .replica-rail-scroll { padding-block: 12px; }
+html[data-redesign] .replica-rail-icon svg { width: 20px; height: 20px; }
+html[data-redesign] .r1-utilities {
+  position: fixed; z-index: 55; top: 0; right: 0; display: flex; align-items: center;
+  justify-content: flex-end; gap: 4px; height: 56px; padding: 0 20px 0 16px;
+  color: rgb(255 255 255 / .72); border-radius: 0 0 0 18px; transition: background 180ms, backdrop-filter 180ms;
+}
+html[data-redesign] .r1-utilities-scrolled { background: rgb(14 14 14 / .82); backdrop-filter: blur(20px); }
+html[data-redesign] .r1-utilities button {
+  display: flex; height: 32px; align-items: center; gap: 6px; padding: 0 12px 0 10px; border: 0; border-radius: 10px; background: transparent;
+  color: inherit; font-family: var(--font-barlow, Barlow), sans-serif; cursor: pointer; transition: color 160ms ease, background 160ms ease;
+}
+html[data-redesign] .r1-utilities .replica-rail-label { font-size: 13px; line-height: 20px; max-width: none; }
+html[data-redesign] .r1-utilities .replica-rail-icon, html[data-redesign] .r1-utilities .replica-rail-icon svg { width: 16px; height: 16px; }
+html[data-redesign] .r1-utilities button:hover { color: #fff; background: rgb(255 255 255 / .06); }
+html[data-redesign] .r1-utilities button:focus-visible { outline: 2px solid #c5f955; outline-offset: -2px; }
+/* Community: no divider above it, and a tighter gap to the module before it. */
+html[data-redesign] div:has(> [data-replica-toolbar]) { padding-top: 24px !important; }
+html[data-redesign] div:has(> [data-replica-toolbar]) > :is(.mt-8.h-\[1px\], .bg-bg-translucent.h-px) { display: none; }
+html[data-redesign] .r1-tab-row { display: flex; justify-content: center; margin-bottom: 24px; }
+html[data-redesign] .r1-mode-tabs { position: relative; display: flex; gap: 5px; padding: 2px; border-radius: 14px; background: rgb(255 255 255 / .05); isolation: isolate; }
+html[data-redesign] .r1-mode-tab {
+  position: relative; display: inline-flex; flex: none; height: 34px; align-items: center; justify-content: center;
+  gap: 4px; padding: 0 16px; border: 0; border-radius: 12px; color: rgb(255 255 255 / .55);
+  background: transparent; font: 500 14px/20px var(--font-barlow, Barlow), sans-serif;
+  white-space: nowrap; cursor: pointer; transition: color 240ms var(--r1-ease);
+}
+html[data-redesign] .r1-mode-tab > span { gap: 4px; }
+html[data-redesign] .r1-mode-tab svg, html[data-redesign] .r1-mode-tab img { transition: opacity 240ms; }
+html[data-redesign] .r1-mode-tab[aria-selected="false"] svg, html[data-redesign] .r1-mode-tab[aria-selected="false"] img { opacity: .6; }
+html[data-redesign] .r1-mode-tab[aria-selected="true"] { color: #fff; }
+html[data-redesign] .r1-tab-indicator { position: absolute; z-index: -1; inset: 2px auto 2px 2px; border-radius: 12px; background: rgb(255 255 255 / .1); box-shadow: inset 0 1px rgb(255 255 255 / .05); transition: transform 240ms var(--r1-ease), width 240ms var(--r1-ease); pointer-events: none; }
+html[data-redesign] :is(.r1-mode-tab, .r1-composer button, .r1-attachment-menu button, .r1-skill-card, .r1-skills-more, .r1-project-card):focus-visible { outline: 2px solid #c5f955; outline-offset: 4px; }
+html[data-redesign] .r1-input-stage { position: relative; width: 100%; }
+html[data-redesign] .r1-input-panel { position: absolute; top: 0; left: 0; width: 100%; transition: opacity 180ms ease, transform 180ms var(--r1-ease); }
+html[data-redesign] .r1-agent-panel { opacity: 0; transform: translateY(5px); pointer-events: none; }
+html[data-redesign-mode="agent"] .r1-quick-panel { opacity: 0; transform: translateY(-5px); pointer-events: none; }
+html[data-redesign-mode="agent"] .r1-agent-panel { opacity: 1; transform: translateY(0); pointer-events: auto; }
+html[data-redesign] .r1-composer-wrap {
+  position: relative; width: clamp(720px, calc(720px + (100vw - 1800px) * 180 / 700), 900px); max-width: 100%; margin: 0 auto;
+}
+html[data-redesign] .r1-composer {
+  display: flex; flex-direction: column; width: 100%;
+  height: 120px; margin: 0; border: 1px solid rgb(255 255 255 / .15); border-radius: 26px;
+  background: rgb(255 255 255 / .075); box-shadow: 0 14px 50px rgb(0 0 0 / .12), inset 0 1px rgb(255 255 255 / .025);
+  backdrop-filter: blur(24px); overflow: hidden;
+}
+html[data-redesign] .r1-composer textarea {
+  display: block; width: 100%; min-height: 0; flex: 1; resize: none; padding: 14px 16px 8px; border: none; outline: none;
+  color: #dedede; background: transparent; font: 400 14px/20px var(--font-barlow, Barlow), sans-serif;
+}
+html[data-redesign] .r1-composer textarea::placeholder { color: rgb(255 255 255 / .3); opacity: 1; }
+html[data-redesign] .r1-composer-footer { display: flex; flex: 0 0 44px; align-items: center; justify-content: space-between; gap: 8px; padding: 0 10px 8px; }
+html[data-redesign] .r1-composer-left, html[data-redesign] .r1-composer-right { display: flex; align-items: center; gap: 6px; }
+html[data-redesign] .r1-composer button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; height: 28px; padding: 0 6px; border: none; color: #dedede; background: transparent; font: 500 12px/16px var(--font-barlow, Barlow), sans-serif; white-space: nowrap; cursor: default; }
+html[data-redesign] .r1-composer button svg { width: 16px; height: 16px; flex: none; }
+html[data-redesign] .r1-composer .r1-add { width: 24px; height: 24px; padding: 0 4px; border-radius: 999px; background: transparent; cursor: pointer; }
+html[data-redesign] .r1-composer .r1-add:hover, html[data-redesign] .r1-composer .r1-add.is-open { background: rgb(255 255 255 / .06); }
+html[data-redesign] .r1-add svg { width: 16px !important; height: 16px !important; }
+html[data-redesign] .r1-composer .r1-skills-control { padding-inline: 10px; border-radius: 16px; background: rgb(255 255 255 / .15); }
+html[data-redesign] .r1-composer .r1-behavior-control { color: #f6992b; }
+html[data-redesign] .r1-composer .r1-send { width: 28px; padding: 0; border-radius: 50%; color: rgb(255 255 255 / .25); background: rgb(255 255 255 / .06); }
+html[data-redesign] .r1-attachment-menu {
+  position: absolute; z-index: 8; bottom: 28px; left: 8px; display: flex; width: 180px; flex-direction: column; gap: 5px;
+  padding: 4px; overflow: hidden; border: .5px solid rgb(255 255 255 / .08); border-radius: 12px;
+  color: #fff; background: rgb(37 37 37 / .7); box-shadow: 0 8px 24px rgb(0 0 0 / .24); backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+html[data-redesign] .r1-attachment-menu[hidden] { display: none; }
+html[data-redesign] .r1-attachment-menu button {
+  position: relative; display: flex; width: 100%; height: 30px; flex: none; align-items: center; gap: 6px; padding: 4px 8px;
+  border: 0; border-radius: 8px; color: #fff; background: transparent; font: 400 12px/16.5px var(--font-barlow, Barlow), sans-serif;
+  text-align: left; cursor: pointer; transition: background-color 100ms ease;
+}
+html[data-redesign] .r1-attachment-menu button:hover, html[data-redesign] .r1-attachment-menu button:focus-visible { background: rgb(255 255 255 / .06); }
+html[data-redesign] .r1-attachment-menu button > svg { width: 16px; height: 16px; flex: none; color: rgb(255 255 255 / .5); }
+html[data-redesign] .r1-attachment-help { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+html[data-redesign] .r1-file-input { position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0; pointer-events: none; }
+html[data-redesign] .r1-agent-expansion { height: 0; margin-top: 0; overflow: clip; transition: height 320ms var(--r1-ease), margin-top 320ms var(--r1-ease); }
+html[data-redesign-mode="agent"] .r1-agent-expansion { margin-top: calc(-1 * var(--r1-composer-clearance, 0px)); transition-duration: 420ms; }
+html[data-redesign] .r1-agent-modules { box-sizing: border-box; width: min(var(--r1-content-width), calc(100% - 64px)); margin: 0 auto; padding: 24px 0 8px; }
+html[data-redesign] .r1-agent-modules h2 { margin: 0; font: 500 14px/20px var(--font-barlow, Barlow), sans-serif; color: rgb(255 255 255 / .55); }
+html[data-redesign] .r1-featured { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px 14px; align-items: center; opacity: 0; transform: translateY(6px); transition: opacity 150ms ease, transform 260ms var(--r1-ease); }
+html[data-redesign] .r1-featured h2 { grid-column: 1 / -1; text-align: center; }
+html[data-redesign] .r1-skills-grid { display: flex; gap: 10px; min-width: 0; }
+html[data-redesign] .r1-skills-grid > .r1-skill-card { flex: 1 1 auto; }
+html[data-redesign] .r1-skill-card { display: flex; align-items: center; gap: 12px; height: 56px; min-width: 0; padding: 8px 12px 8px 8px; border: 1px solid rgb(255 255 255 / .055); border-radius: 14px; color: rgb(255 255 255 / .86); background: rgb(255 255 255 / .025); font: 500 14px/20px var(--font-barlow, Barlow), sans-serif; text-align: left; cursor: default; transition: background 160ms ease, border-color 160ms ease, color 160ms ease; }
+html[data-redesign] .r1-skill-card:hover { color: #fff; background: rgb(255 255 255 / .055); border-color: rgb(255 255 255 / .12); }
+html[data-redesign] .r1-skill-card img { display: block; width: 40px; height: 40px; flex: none; border-radius: 9px; object-fit: cover; background: rgb(255 255 255 / .06); }
+html[data-redesign] .r1-skill-card img.r1-skill-cutout { padding: 3px; object-fit: contain; }
+html[data-redesign] .r1-skill-card span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+html[data-redesign] .r1-skills-more { display: inline-flex; align-items: center; justify-content: flex-end; gap: 3px; height: 56px; padding: 0; border: 0; color: rgb(255 255 255 / .5); background: transparent; font: 400 12px/20px var(--font-barlow, Barlow), sans-serif; white-space: nowrap; cursor: default; transition: color 160ms ease; }
+html[data-redesign] .r1-skills-more svg { width: 14px; height: 14px; }
+html[data-redesign] .r1-skills-more:hover { color: rgb(255 255 255 / .85); }
+html[data-redesign] .r1-recent { margin-top: 48px; opacity: 0; transform: translateY(6px); transition: opacity 130ms ease, transform 240ms var(--r1-ease); }
+html[data-redesign] .r1-recent h2 { color: #dedede; font-size: 16px; line-height: 24px; }
+html[data-redesign] .r1-section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+html[data-redesign] .r1-section-more { text-decoration: none; display: inline-flex; align-items: center; gap: 2px; padding: 0; border: 0; color: rgb(255 255 255 / .5); background: transparent; font: 400 13px/20px var(--font-barlow, Barlow), sans-serif; white-space: nowrap; cursor: pointer; transition: color 160ms ease; }
+html[data-redesign] .r1-section-more svg { width: 14px; height: 14px; transition: transform 200ms var(--r1-ease, ease); }
+html[data-redesign] .r1-section-more:hover { color: rgb(255 255 255 / .85); }
+html[data-redesign] .r1-section-more:hover svg { transform: translateX(2px); }
+html[data-redesign] .r1-section-more:focus-visible { outline: 2px solid #c5f955; outline-offset: 4px; border-radius: 4px; }
+html[data-redesign-mode="agent"] :is(.r1-featured, .r1-recent) { opacity: 1; transform: translateY(0); transition-duration: 220ms, 360ms; }
+html[data-redesign-mode="agent"] .r1-featured { transition-delay: 45ms; }
+html[data-redesign-mode="agent"] .r1-recent { transition-delay: 95ms; }
+html[data-redesign] .r1-projects-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
+html[data-redesign] .r1-project-card { display: flex; min-width: 0; flex-direction: column; padding: 0; border: none; background: transparent; text-align: left; cursor: default; }
+html[data-redesign="1"] a.r1-project-card[href] { text-decoration: none; cursor: pointer; }
+html[data-redesign] .r1-project-cover { display: flex; width: 100%; aspect-ratio: 1; align-items: center; justify-content: center; overflow: hidden; border-radius: 14px; background: rgb(100 100 100 / .24); }
+html[data-redesign] .r1-project-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+html[data-redesign] .r1-cover-empty { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; background: rgb(255 255 255 / .04); }
+html[data-redesign] .r1-cover-empty svg { display: block; width: clamp(14px, 30%, 64px); height: auto; filter: grayscale(1) brightness(1.5); opacity: .3; }
+html[data-redesign] .r1-project-new svg { width: 26px; height: 26px; color: rgb(255 255 255 / .65); }
+html[data-redesign] .r1-project-name { width: 100%; overflow: hidden; margin-top: 10px; color: #dedede; font: 500 14px/20px var(--font-barlow, Barlow), sans-serif; text-overflow: ellipsis; white-space: nowrap; }
+html[data-redesign] .r1-project-date { margin-top: 2px; color: rgb(255 255 255 / .4); font: 400 12px/16px var(--font-barlow, Barlow), sans-serif; }
+html[data-redesign] .r1-toolbar-stuck { background: rgb(14 14 14 / .92); backdrop-filter: blur(24px); }
+@media (max-width: 1100px) {
+  html[data-redesign] .r1-skills-grid { display: grid; grid-column: 1 / -1; grid-row: 2; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  html[data-redesign] .r1-featured h2 { grid-row: 1; }
+  html[data-redesign] .r1-skills-more { grid-column: 2; grid-row: 1; height: 20px; }
+  html[data-redesign] .r1-projects-grid { gap: 12px; }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  html[data-redesign] .r1-projects-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 12px; }
+}
+@media (max-width: 767px) {
+  html[data-redesign] .logged-sidebar { display: flex; inset: 0 0 auto; width: 100%; height: 106px; flex-direction: row; overflow: visible; background: rgb(9 14 14 / .8); backdrop-filter: blur(24px); }
+  html[data-redesign] .replica-rail-logo { position: absolute; top: 0; left: 0; width: 48px; height: 48px; padding: 0; }
+  html[data-redesign] .replica-rail-logo svg { width: 26px !important; height: 26px !important; }
+  html[data-redesign] .replica-rail-scroll { position: absolute; top: 48px; left: 0; width: 100%; height: 58px; flex-direction: row; justify-content: space-evenly; padding: 2px 8px; overflow: hidden; }
+  html[data-redesign] .replica-rail-group { flex-direction: row; gap: 0; }
+  html[data-redesign] .replica-rail-entry { width: 46px; height: 48px; gap: 3px; }
+  html[data-redesign] .replica-rail-separator { width: 1px; height: 16px; margin: 0 4px; }
+  html[data-redesign] .replica-rail-bottom { display: none; }
+  html[data-redesign] .r1-utilities { z-index: 65; gap: 2px; height: 48px; padding: 0 8px 0 48px; background: transparent; backdrop-filter: none; }
+  html[data-redesign] .r1-utilities button { height: 30px; gap: 5px; padding: 0 8px; }
+  html[data-redesign] .r1-utilities .replica-rail-label { font-size: 12px; }
+  html[data-redesign] .r1-utilities .replica-rail-icon, html[data-redesign] .r1-utilities .replica-rail-icon svg { width: 15px; height: 15px; }
+  html[data-redesign] [data-replica-hero] { padding-top: 50px; }
+  html[data-redesign] [data-replica-hero] > div:first-child { margin-top: 32px; gap: 24px; }
+  html[data-redesign] .replica-logged-title-wrap { flex-direction: column; gap: 2px; }
+  html[data-redesign] .replica-logged-title-wrap h1, html[data-redesign] .replica-greeting { font-size: 20px; line-height: 28px; }
+  html[data-redesign] .r1-chrome { width: 100%; }
+  html[data-redesign] .r1-tab-row { margin-bottom: 24px; }
+  html[data-redesign] .r1-input-stage { width: 100%; }
+  html[data-redesign] .r1-quick-panel [data-design4-input] { width: 100%; }
+  html[data-redesign] .r1-quick-parameters > div:first-child { min-width: 0; }
+  html[data-redesign] .r1-quick-parameters [role="combobox"] { padding-inline: 4px; font-size: 11px; }
+  html[data-redesign] .r1-quick-parameters [data-type="icon-tertiary"] { width: 28px; height: 28px; padding: 4px; }
+  html[data-redesign] .r1-quick-parameters [data-replica-generate] { width: 100% !important; }
+  html[data-redesign] .r1-agent-modules { width: calc(100% - 32px); }
+  html[data-redesign] .r1-skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  html[data-redesign] .r1-skill-card { height: 52px; gap: 10px; padding: 6px 10px 6px 6px; border-radius: 12px; font-size: 13px; }
+  html[data-redesign] .r1-recent { margin-top: 32px; }
+  html[data-redesign] .r1-projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 12px; margin-top: 16px; }
+  html[data-redesign] .r1-project-date { font-size: 11px; }
+  html[data-redesign] .r1-composer-wrap, html[data-redesign] .r1-composer { width: 100%; }
+  html[data-redesign] .r1-composer { height: 158px; border-radius: 24px; }
+  html[data-redesign] .r1-composer textarea { padding-inline: 14px; }
+  html[data-redesign] .r1-composer-footer { padding-inline: 8px; gap: 2px; }
+  html[data-redesign] .r1-composer-left, html[data-redesign] .r1-composer-right { gap: 2px; }
+  html[data-redesign] .r1-composer .r1-skills-control { padding-inline: 7px; }
+  html[data-redesign] .r1-composer .r1-model-control { font-size: 11px; padding-inline: 3px; }
+  html[data-redesign] .r1-composer .r1-behavior-control { font-size: 11px; padding-inline: 2px; }
+  html[data-redesign] .r1-composer .r1-mic { width: 24px; padding-inline: 4px; }
+  html[data-redesign] [data-replica-toolbar] { overflow: hidden; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-redesign] *, html[data-redesign] *::before, html[data-redesign] *::after { animation: none !important; transition-duration: 0ms !important; transition-delay: 0ms !important; scroll-behavior: auto !important; }
+}
+
+/* References picked from the asset library sit above the prompt. */
+html[data-redesign] .r1-composer-refs { display: flex; flex: none; flex-wrap: nowrap; gap: 6px; overflow-x: auto; padding: 10px 12px 0; scrollbar-width: none; }
+html[data-redesign] .r1-composer-refs::-webkit-scrollbar { display: none; }
+html[data-redesign] .r1-ref-chip { flex: none; }
+html[data-redesign] .r1-composer-refs[hidden] { display: none; }
+html[data-redesign] .r1-ref-chip { display: inline-flex; max-width: 200px; height: 30px; align-items: center; gap: 6px; padding: 0 4px; border-radius: 9px; color: rgb(255 255 255 / .7); background: rgb(255 255 255 / .07); font: 400 13px/18px var(--font-barlow, Barlow), sans-serif; }
+html[data-redesign] .r1-ref-chip img { width: 22px; height: 22px; flex: none; border-radius: 5px; object-fit: contain; background: #2a2a2a; }
+html[data-redesign] .r1-ref-chip > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+html[data-redesign] .r1-composer .r1-ref-chip button { width: 20px; height: 20px; flex: none; padding: 3px; border-radius: 6px; color: rgb(255 255 255 / .55); cursor: pointer; }
+html[data-redesign] .r1-composer .r1-ref-chip button:hover { color: #fff; background: rgb(255 255 255 / .1); }
+html[data-redesign] .r1-composer .r1-ref-chip button svg { width: 14px; height: 14px; }
+html[data-redesign] .r1-composer.has-refs textarea { padding-top: 8px; }

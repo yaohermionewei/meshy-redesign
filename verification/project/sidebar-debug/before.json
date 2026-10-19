@@ -1,0 +1,197 @@
+{
+  "samples": [
+    {
+      "time": 1353.1999998092651,
+      "chatX": 64,
+      "titleX": 118,
+      "titleOffset": 54,
+      "restoreWidth": 28,
+      "restoreDisplay": "flex"
+    },
+    {
+      "time": 1355,
+      "chatX": 64,
+      "titleX": 77,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1355.5,
+      "chatX": 64,
+      "titleX": 77,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1362.3999996185303,
+      "chatX": 140.515625,
+      "titleX": 153.515625,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1379.0999999046326,
+      "chatX": 203.140625,
+      "titleX": 216.140625,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1396.1999998092651,
+      "chatX": 249.953125,
+      "titleX": 262.953125,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1412.0999999046326,
+      "chatX": 283.203125,
+      "titleX": 296.203125,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1429.5,
+      "chatX": 305.65625,
+      "titleX": 318.65625,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1445.6999998092651,
+      "chatX": 320.8125,
+      "titleX": 333.8125,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1462.0999999046326,
+      "chatX": 330.71875,
+      "titleX": 343.71875,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1479.6999998092651,
+      "chatX": 337.140625,
+      "titleX": 350.140625,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1495.8999996185303,
+      "chatX": 341.28125,
+      "titleX": 354.28125,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1512.5999999046326,
+      "chatX": 343.890625,
+      "titleX": 356.890625,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1529.1999998092651,
+      "chatX": 345.4375,
+      "titleX": 358.4375,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1545.7999997138977,
+      "chatX": 346.3125,
+      "titleX": 359.3125,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1562.1999998092651,
+      "chatX": 346.765625,
+      "titleX": 359.765625,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1579.5,
+      "chatX": 346.9375,
+      "titleX": 359.9375,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1595.5999999046326,
+      "chatX": 346.984375,
+      "titleX": 359.984375,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1612.1999998092651,
+      "chatX": 347,
+      "titleX": 360,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1629.0999999046326,
+      "chatX": 347,
+      "titleX": 360,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1645.5,
+      "chatX": 347,
+      "titleX": 360,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1662.3999996185303,
+      "chatX": 347,
+      "titleX": 360,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1678.2999997138977,
+      "chatX": 347,
+      "titleX": 360,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    },
+    {
+      "time": 1695.3999996185303,
+      "chatX": 347,
+      "titleX": 360,
+      "titleOffset": 13,
+      "restoreWidth": 0,
+      "restoreDisplay": "none"
+    }
+  ],
+  "handlerTime": 1.700000286102295
+}

@@ -1,0 +1,44 @@
+{
+  "reference": "Authenticated project page and user screenshot",
+  "viewport": {
+    "width": 1802,
+    "height": 1164
+  },
+  "railWidth": 64,
+  "projectPanel": {
+    "x": 64,
+    "y": 8,
+    "width": 283,
+    "height": 1148
+  },
+  "chatPanel": {
+    "x": 347,
+    "y": 8,
+    "width": 391,
+    "height": 1148
+  },
+  "canvas": {
+    "x": 738,
+    "y": 0,
+    "width": 1064,
+    "height": 1164,
+    "firstCard": {
+      "x": 762,
+      "y": 187.782,
+      "size": 60.714
+    }
+  },
+  "assets": {
+    "x": 1434,
+    "y": 8,
+    "width": 360,
+    "height": 1100,
+    "firstCard": {
+      "x": 1442,
+      "y": 116,
+      "size": 112
+    },
+    "gap": 4,
+    "columns": 3
+  }
+}

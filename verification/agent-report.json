@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-18T06:31:26.083Z",
+  "passed": true,
+  "results": [
+    {
+      "width": 1690,
+      "height": 1164,
+      "passed": true,
+      "checks": {
+        "viewport": true,
+        "rail": true,
+        "title": true,
+        "composer": true,
+        "feature": true,
+        "popular": true,
+        "recent": true,
+        "featureCount": true,
+        "popularCount": true,
+        "recentCount": true,
+        "bodyWidth": true,
+        "broken": true,
+        "pageTitle": true,
+        "external": true,
+        "errors": true
+      },
+      "actual": {
+        "title": {
+          "x": 507,
+          "y": 242,
+          "w": 740,
+          "h": 32
+        },
+        "composer": {
+          "x": 507,
+          "y": 324,
+          "w": 740,
+          "h": 120
+        },
+        "feature": {
+          "x": 407,
+          "y": 546,
+          "w": 150,
+          "h": 51
+        },
+        "popular": {
+          "x": 505,
+          "y": 747,
+          "w": 180,
+          "h": 51
+        },
+        "recent": {
+          "x": 407,
+          "y": 907,
+          "w": 175.1875,
+          "h": 175
+        },
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 1164
+        },
+        "featureCount": 6,
+        "popularCount": 4,
+        "recentCount": 5,
+        "bodyWidth": 1690,
+        "broken": 0,
+        "pageTitle": "meshy_redesign"
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "passed": true,
+      "checks": {
+        "viewport": true,
+        "rail": true,
+        "title": true,
+        "composer": true,
+        "feature": true,
+        "popular": true,
+        "recent": true,
+        "featureCount": true,
+        "popularCount": true,
+        "recentCount": true,
+        "bodyWidth": true,
+        "broken": true,
+        "pageTitle": true,
+        "external": true,
+        "errors": true
+      },
+      "actual": {
+        "title": {
+          "x": 302,
+          "y": 242,
+          "w": 740,
+          "h": 32
+        },
+        "composer": {
+          "x": 302,
+          "y": 324,
+          "w": 740,
+          "h": 120
+        },
+        "feature": {
+          "x": 202,
+          "y": 546,
+          "w": 150,
+          "h": 51
+        },
+        "popular": {
+          "x": 300,
+          "y": 747,
+          "w": 180,
+          "h": 51
+        },
+        "recent": {
+          "x": 202,
+          "y": 907,
+          "w": 175.1875,
+          "h": 175
+        },
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 720
+        },
+        "featureCount": 6,
+        "popularCount": 4,
+        "recentCount": 5,
+        "bodyWidth": 1280,
+        "broken": 0,
+        "pageTitle": "meshy_redesign"
+      },
+      "external": [],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "browser": "Codex In-app Browser",
+  "source": "http://localhost:5173/verification/redesign1/switching.mp4",
+  "duration": 10.516667,
+  "ended": true,
+  "readyState": 4,
+  "mediaError": null,
+  "consoleErrors": [],
+  "inspection": "Played the updated recording to completion in the in-app browser. Compact spacing and lighter skill cards remain stable during opening, closing, reversal and rapid switching."
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "width": 390,
+    "dpr": 2,
+    "documentWidth": 390,
+    "brokenImages": [],
+    "cards": 20,
+    "cardsOutside": 0,
+    "retinaImages": [
+      {
+        "src": "http://localhost:5174/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+        "width": 308
+      }
+    ],
+    "errors": [],
+    "external": []
+  },
+  {
+    "width": 640,
+    "dpr": 2,
+    "documentWidth": 640,
+    "brokenImages": [],
+    "cards": 20,
+    "cardsOutside": 0,
+    "retinaImages": [
+      {
+        "src": "http://localhost:5174/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+        "width": 308
+      }
+    ],
+    "errors": [],
+    "external": []
+  },
+  {
+    "width": 768,
+    "dpr": 2,
+    "documentWidth": 768,
+    "brokenImages": [],
+    "cards": 20,
+    "cardsOutside": 0,
+    "retinaImages": [
+      {
+        "src": "http://localhost:5174/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+        "width": 308
+      }
+    ],
+    "errors": [],
+    "external": []
+  },
+  {
+    "width": 1280,
+    "dpr": 2,
+    "documentWidth": 1280,
+    "brokenImages": [],
+    "cards": 20,
+    "cardsOutside": 0,
+    "retinaImages": [
+      {
+        "src": "http://localhost:5174/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+        "width": 308
+      }
+    ],
+    "errors": [],
+    "external": []
+  },
+  {
+    "width": 1440,
+    "dpr": 2,
+    "documentWidth": 1440,
+    "brokenImages": [],
+    "cards": 20,
+    "cardsOutside": 0,
+    "retinaImages": [
+      {
+        "src": "http://localhost:5174/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+        "width": 308
+      }
+    ],
+    "errors": [],
+    "external": []
+  },
+  {
+    "width": 2560,
+    "dpr": 2,
+    "documentWidth": 2560,
+    "brokenImages": [],
+    "cards": 20,
+    "cardsOutside": 0,
+    "retinaImages": [
+      {
+        "src": "http://localhost:5174/assets/2489a0bbc3bb-019e0138-c932-7029-a071-9e56f2bfaad7.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/51491d21442f-019dd38b-555e-72a0-89ac-2e8a7ddb7e33.png",
+        "width": 231
+      },
+      {
+        "src": "http://localhost:5174/assets/94e3ca6cf053-019dd6a9-303a-71d6-b9ec-ba6df72238e2.png",
+        "width": 308
+      }
+    ],
+    "errors": [],
+    "external": []
+  }
+]

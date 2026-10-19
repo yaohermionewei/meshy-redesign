@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Meshy 登录态复刻检查</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#101112;color:#eef0ed;font:14px/1.7 system-ui,sans-serif}main{max-width:1600px;margin:auto;padding:30px}h1{margin:0 0 6px;font-size:24px}p{margin:0 0 22px;color:#a4aaa4}.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}button,select{padding:8px 13px;border:1px solid #3a403b;border-radius:8px;background:#202423;color:inherit;font:inherit}.stage{overflow:hidden;max-width:1588px;background:#080a0a;border:1px solid #343a36;border-radius:10px}.stage img{display:block;width:100%;height:auto}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}.metric{padding:12px;border:1px solid #303632;border-radius:8px;background:#171a19}.metric b{display:block;color:#c7ff4f;font-size:18px}.metric small{color:#9ca49e}a{color:#c7ff4f}@media(max-width:760px){main{padding:18px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+</head>
+<body><main>
+  <h1>Meshy 登录态首页复刻</h1>
+  <p>已登录原站读取到的左侧 rail、用户名问候、生成区和社区网格已写入本地页面。选择尺寸查看本地截图，几何数据来自认证原站。</p>
+  <div class="controls"><select id="viewport"><option value="1094">1094 × 950</option><option value="1588">1588 × 950</option></select><a href="logged-report.json">打开 JSON 检查报告</a></div>
+  <div class="stage"><img id="shot" alt="登录态本地复刻截图"></div>
+  <div class="metrics"><div class="metric"><b>64px</b><small>左侧 rail 宽度</small></div><div class="metric"><b>20</b><small>社区卡片</small></div><div class="metric"><b>0</b><small>缺失图片</small></div><div class="metric"><b>0</b><small>外部请求</small></div></div>
+  <p><a href="../">打开本地首页</a> · <a href="LOGGED-REPORT.md">阅读登录态检查说明</a></p>
+  <script>const sel=document.querySelector('#viewport'),img=document.querySelector('#shot');function update(){img.src=`logged-local-${sel.value}.png`}sel.onchange=update;update();</script>
+</main></body></html>

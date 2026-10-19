@@ -1,0 +1,26 @@
+{
+  "name": "meshy-discover-visual-replica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A locally hosted visual reproduction of Meshy's Chinese Discover page.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/server.mjs --dist",
+    "verify": "node scripts/verify.cjs",
+    "verify:logged": "node scripts/verify-logged.cjs",
+    "verify:agent": "node scripts/verify-agent.cjs",
+    "capture": "node scripts/capture-and-localize.cjs",
+    "verify:redesign1": "node scripts/verify-redesign1.cjs",
+    "verify:redesign2": "node scripts/verify-redesign2.cjs",
+    "verify:project": "node scripts/verify-project.cjs",
+    "verify:project-motion": "node scripts/verify-project-motion.cjs"
+  },
+  "devDependencies": {
+    "pixelmatch": "7.2.0",
+    "playwright": "1.62.1",
+    "pngjs": "7.0.0"
+  }
+}

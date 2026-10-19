@@ -1,0 +1,1834 @@
+{
+  "checkedAt": "2026-10-18T08:14:12.488Z",
+  "base": "http://localhost:5175",
+  "passed": true,
+  "checks": [
+    {
+      "name": "1802: route, shared scheme-one rail and title",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 187.78199768066406,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1050,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1802: conversation left empty with composer preserved",
+      "passed": true,
+      "detail": {
+        "x": 363,
+        "y": 1050,
+        "width": 359,
+        "height": 90
+      }
+    },
+    {
+      "name": "1802: all original canvas and asset images present",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 187.78199768066406,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1050,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1802: no page overflow",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 187.78199768066406,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1050,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "Reference: project and chat panel geometry",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 187.78199768066406,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1050,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "Reference: canvas and asset panel geometry",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 187.78199768066406,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1050,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "Reference: first canvas and asset card geometry",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 187.78199768066406,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1050,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "Collapsed sidebar restores from the chat header",
+      "passed": true
+    },
+    {
+      "name": "Collapsed chat has four rounded corners and occupies the left edge",
+      "passed": true
+    },
+    {
+      "name": "Asset list collapses to a named expansion button",
+      "passed": true
+    },
+    {
+      "name": "Asset list restores all models",
+      "passed": true
+    },
+    {
+      "name": "Desktop project panel slides back and retains the draft",
+      "passed": true,
+      "detail": [
+        140.6392059326172,
+        203.12901306152344,
+        249.94622802734375,
+        283.1976318359375,
+        305.7747497558594,
+        320.7408447265625,
+        330.6751403808594,
+        337.15142822265625,
+        341.3060302734375,
+        343.890869140625,
+        345.453125,
+        346.3301696777344,
+        346.7691955566406,
+        346.9508972167969,
+        346.99755859375,
+        347,
+        347,
+        347,
+        347
+      ]
+    },
+    {
+      "name": "Canvas zoom responds",
+      "passed": true
+    },
+    {
+      "name": "Canvas returns to initial view",
+      "passed": true
+    },
+    {
+      "name": "Unmodified wheel leaves canvas zoom unchanged",
+      "passed": true
+    },
+    {
+      "name": "Cmd wheel zooms canvas around the pointer without zooming the page",
+      "passed": true,
+      "detail": {
+        "startCamera": {
+          "scale": 1,
+          "x": 24,
+          "y": 187.782,
+          "left": 738,
+          "top": 0,
+          "viewport": 1
+        },
+        "zoomedCamera": {
+          "scale": 1.27125,
+          "x": -40.5573,
+          "y": 198.03,
+          "left": 738,
+          "top": 0,
+          "viewport": 1
+        }
+      }
+    },
+    {
+      "name": "Cmd wheel zooms back out",
+      "passed": true
+    },
+    {
+      "name": "Control wheel also supports trackpad pinch events",
+      "passed": true
+    },
+    {
+      "name": "Panel toggles preserve manual canvas zoom and pan",
+      "passed": true
+    },
+    {
+      "name": "Canvas can pan without recreating cards",
+      "passed": true
+    },
+    {
+      "name": "Asset search filters local models",
+      "passed": true
+    },
+    {
+      "name": "Clearing search restores all assets",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion restores sidebar without sliding",
+      "passed": true
+    },
+    {
+      "name": "1802: direct route refresh",
+      "passed": true
+    },
+    {
+      "name": "1920: route, shared scheme-one rail and title",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1200
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1184
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1184
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1182,
+          "height": 1200
+        },
+        "assets": {
+          "x": 1552,
+          "y": 8,
+          "width": 360,
+          "height": 1136
+        },
+        "firstAsset": {
+          "x": 1560,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 205.78199768066406,
+          "width": 60.703125,
+          "height": 60.70310974121094
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1086,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1920: conversation left empty with composer preserved",
+      "passed": true,
+      "detail": {
+        "x": 363,
+        "y": 1086,
+        "width": 359,
+        "height": 90
+      }
+    },
+    {
+      "name": "1920: all original canvas and asset images present",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1200
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1184
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1184
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1182,
+          "height": 1200
+        },
+        "assets": {
+          "x": 1552,
+          "y": 8,
+          "width": 360,
+          "height": 1136
+        },
+        "firstAsset": {
+          "x": 1560,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 205.78199768066406,
+          "width": 60.703125,
+          "height": 60.70310974121094
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1086,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1920: no page overflow",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1200
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1184
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1184
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1182,
+          "height": 1200
+        },
+        "assets": {
+          "x": 1552,
+          "y": 8,
+          "width": 360,
+          "height": 1136
+        },
+        "firstAsset": {
+          "x": 1560,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 205.78199768066406,
+          "width": 60.703125,
+          "height": 60.70310974121094
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 363,
+          "y": 1086,
+          "width": 359,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1920: direct route refresh",
+      "passed": true
+    },
+    {
+      "name": "1440: route, shared scheme-one rail and title",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1000
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 224,
+          "height": 984
+        },
+        "chat": {
+          "x": 288,
+          "y": 8,
+          "width": 340,
+          "height": 984
+        },
+        "canvas": {
+          "x": 628,
+          "y": 0,
+          "width": 812,
+          "height": 1000
+        },
+        "assets": {
+          "x": 1112,
+          "y": 8,
+          "width": 320,
+          "height": 936
+        },
+        "firstAsset": {
+          "x": 1120,
+          "y": 116,
+          "width": 98.65625,
+          "height": 98.65625
+        },
+        "firstCard": {
+          "x": 652,
+          "y": 241.6385040283203,
+          "width": 38.78253173828125,
+          "height": 38.78254699707031
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 304,
+          "y": 886,
+          "width": 308,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1440: conversation left empty with composer preserved",
+      "passed": true,
+      "detail": {
+        "x": 304,
+        "y": 886,
+        "width": 308,
+        "height": 90
+      }
+    },
+    {
+      "name": "1440: all original canvas and asset images present",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1000
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 224,
+          "height": 984
+        },
+        "chat": {
+          "x": 288,
+          "y": 8,
+          "width": 340,
+          "height": 984
+        },
+        "canvas": {
+          "x": 628,
+          "y": 0,
+          "width": 812,
+          "height": 1000
+        },
+        "assets": {
+          "x": 1112,
+          "y": 8,
+          "width": 320,
+          "height": 936
+        },
+        "firstAsset": {
+          "x": 1120,
+          "y": 116,
+          "width": 98.65625,
+          "height": 98.65625
+        },
+        "firstCard": {
+          "x": 652,
+          "y": 241.6385040283203,
+          "width": 38.78253173828125,
+          "height": 38.78254699707031
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 304,
+          "y": 886,
+          "width": 308,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1440: no page overflow",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1000
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 224,
+          "height": 984
+        },
+        "chat": {
+          "x": 288,
+          "y": 8,
+          "width": 340,
+          "height": 984
+        },
+        "canvas": {
+          "x": 628,
+          "y": 0,
+          "width": 812,
+          "height": 1000
+        },
+        "assets": {
+          "x": 1112,
+          "y": 8,
+          "width": 320,
+          "height": 936
+        },
+        "firstAsset": {
+          "x": 1120,
+          "y": 116,
+          "width": 98.65625,
+          "height": 98.65625
+        },
+        "firstCard": {
+          "x": 652,
+          "y": 241.6385040283203,
+          "width": 38.78253173828125,
+          "height": 38.78254699707031
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 304,
+          "y": 886,
+          "width": 308,
+          "height": 90
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1440: direct route refresh",
+      "passed": true
+    },
+    {
+      "name": "768: route, shared scheme-one rail and title",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1000
+        },
+        "projects": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "chat": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "canvas": {
+          "x": 64,
+          "y": 0,
+          "width": 704,
+          "height": 1000
+        },
+        "assets": {
+          "x": 480,
+          "y": 8,
+          "width": 280,
+          "height": 936
+        },
+        "firstAsset": {
+          "x": 488,
+          "y": 116,
+          "width": 85.328125,
+          "height": 85.328125
+        },
+        "firstCard": {
+          "x": 88,
+          "y": 277.1701965332031,
+          "width": 33.04948425292969,
+          "height": 33.049468994140625
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "768: conversation left empty with composer preserved",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "name": "768: all original canvas and asset images present",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1000
+        },
+        "projects": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "chat": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "canvas": {
+          "x": 64,
+          "y": 0,
+          "width": 704,
+          "height": 1000
+        },
+        "assets": {
+          "x": 480,
+          "y": 8,
+          "width": 280,
+          "height": 936
+        },
+        "firstAsset": {
+          "x": 488,
+          "y": 116,
+          "width": 85.328125,
+          "height": 85.328125
+        },
+        "firstCard": {
+          "x": 88,
+          "y": 277.1701965332031,
+          "width": 33.04948425292969,
+          "height": 33.049468994140625
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "768: no page overflow",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1000
+        },
+        "projects": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "chat": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "canvas": {
+          "x": 64,
+          "y": 0,
+          "width": 704,
+          "height": 1000
+        },
+        "assets": {
+          "x": 480,
+          "y": 8,
+          "width": 280,
+          "height": 936
+        },
+        "firstAsset": {
+          "x": 488,
+          "y": 116,
+          "width": 85.328125,
+          "height": 85.328125
+        },
+        "firstCard": {
+          "x": 88,
+          "y": 277.1701965332031,
+          "width": 33.04948425292969,
+          "height": 33.049468994140625
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "768: compact chat panel is accessible",
+      "passed": true
+    },
+    {
+      "name": "768: Escape closes compact chat",
+      "passed": true
+    },
+    {
+      "name": "768: draft survives closing the panel",
+      "passed": true
+    },
+    {
+      "name": "768: all projects available in compact panel",
+      "passed": true
+    },
+    {
+      "name": "768: direct route refresh",
+      "passed": true
+    },
+    {
+      "name": "390: route, shared scheme-one rail and title",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 106
+        },
+        "projects": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "chat": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 106,
+          "width": 390,
+          "height": 894
+        },
+        "assets": {
+          "x": 8,
+          "y": 553,
+          "width": 374,
+          "height": 391
+        },
+        "firstAsset": {
+          "x": 16,
+          "y": 661,
+          "width": 116.65625,
+          "height": 116.65625
+        },
+        "firstCard": {
+          "x": 24,
+          "y": 158,
+          "width": 29.508460998535156,
+          "height": 29.508453369140625
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "390: conversation left empty with composer preserved",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "name": "390: all original canvas and asset images present",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 106
+        },
+        "projects": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "chat": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 106,
+          "width": 390,
+          "height": 894
+        },
+        "assets": {
+          "x": 8,
+          "y": 553,
+          "width": 374,
+          "height": 391
+        },
+        "firstAsset": {
+          "x": 16,
+          "y": 661,
+          "width": 116.65625,
+          "height": 116.65625
+        },
+        "firstCard": {
+          "x": 24,
+          "y": 158,
+          "width": 29.508460998535156,
+          "height": 29.508453369140625
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "390: no page overflow",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 106
+        },
+        "projects": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "chat": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "canvas": {
+          "x": 0,
+          "y": 106,
+          "width": 390,
+          "height": 894
+        },
+        "assets": {
+          "x": 8,
+          "y": 553,
+          "width": 374,
+          "height": 391
+        },
+        "firstAsset": {
+          "x": 16,
+          "y": 661,
+          "width": 116.65625,
+          "height": 116.65625
+        },
+        "firstCard": {
+          "x": 24,
+          "y": 158,
+          "width": 29.508460998535156,
+          "height": 29.508453369140625
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": true,
+        "composer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "390: compact chat panel is accessible",
+      "passed": true
+    },
+    {
+      "name": "390: Escape closes compact chat",
+      "passed": true
+    },
+    {
+      "name": "390: draft survives closing the panel",
+      "passed": true
+    },
+    {
+      "name": "390: all projects available in compact panel",
+      "passed": true
+    },
+    {
+      "name": "390: direct route refresh",
+      "passed": true
+    },
+    {
+      "name": "First named project opens from redesign one home",
+      "passed": true
+    },
+    {
+      "name": "Shared home navigation returns to scheme one",
+      "passed": true
+    },
+    {
+      "name": "No external requests, broken assets or console errors",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "failed": [],
+        "external": []
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "external": []
+}

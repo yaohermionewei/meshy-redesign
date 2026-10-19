@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-10-18T11:34:55.285Z",
+  "base": "http://localhost:5173",
+  "passed": false,
+  "checks": [
+    {
+      "name": "1802: route, shared scheme-one rail and title",
+      "passed": true,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "创作",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 72,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": false,
+        "composer": {
+          "x": 363,
+          "y": 1010,
+          "width": 359,
+          "height": 130
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    },
+    {
+      "name": "1802: conversation left empty with composer preserved",
+      "passed": true,
+      "detail": {
+        "x": 363,
+        "y": 1010,
+        "width": 359,
+        "height": 130
+      }
+    },
+    {
+      "name": "1802: all original canvas and asset images present",
+      "passed": false,
+      "detail": {
+        "ready": "true",
+        "title": "meshy_redesign1",
+        "nav": [
+          "创作",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 1164
+        },
+        "projects": {
+          "x": 64,
+          "y": 8,
+          "width": 283,
+          "height": 1148
+        },
+        "chat": {
+          "x": 347,
+          "y": 8,
+          "width": 391,
+          "height": 1148
+        },
+        "canvas": {
+          "x": 738,
+          "y": 0,
+          "width": 1064,
+          "height": 1164
+        },
+        "assets": {
+          "x": 1434,
+          "y": 8,
+          "width": 360,
+          "height": 1100
+        },
+        "firstAsset": {
+          "x": 1442,
+          "y": 116,
+          "width": 112,
+          "height": 112
+        },
+        "firstCard": {
+          "x": 762,
+          "y": 72,
+          "width": 60.703125,
+          "height": 60.703125
+        },
+        "canvasCount": 52,
+        "assetCount": 20,
+        "empty": true,
+        "mode": "模型",
+        "overflow": false,
+        "broken": [],
+        "canvasMatches": false,
+        "composer": {
+          "x": 363,
+          "y": 1010,
+          "width": 359,
+          "height": 130
+        },
+        "projectNames": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "external": []
+}

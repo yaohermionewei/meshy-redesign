@@ -1,0 +1,10 @@
+{
+  "browser": "Codex In-app Browser",
+  "source": "http://localhost:5173/verification/redesign2/switching.mp4",
+  "duration": 10.516667,
+  "ended": true,
+  "readyState": 4,
+  "mediaError": null,
+  "consoleErrors": [],
+  "inspection": "Played the actual rendered recording to completion. Inspected opening, return, mid-transition reversal and repeated fast toggles, with the community following document flow."
+}

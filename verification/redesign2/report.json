@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-10-18T11:01:00.640Z",
+  "base": "http://localhost:5180",
+  "passed": false,
+  "results": [
+    {
+      "name": "1440: scheme two, horizontal navigation and sidebar projects",
+      "passed": false,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5180/redesign/2",
+        "history": 2,
+        "resources": 83,
+        "rects": [
+          {
+            "x": 809.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 712.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 432,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1216,
+          "h": 176
+        },
+        "content": {
+          "x": 272,
+          "y": 418,
+          "w": 1120,
+          "h": 176
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "创作",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行游戏",
+          "图片问题",
+          "游戏角色白膜建模与贴图",
+          "帮我绑定骨骼",
+          "Unity Unreal 与 Blender 插件下载",
+          "Codex调用生成能力的MCP",
+          "游戏动画角色模型",
+          "3D游戏",
+          "做成游戏3d角色，后续要绑定骨骼的",
+          "游戏主角3D模型",
+          "低面数角色面部优化",
+          "未命名",
+          "3D资产拆件与骨骼绑定"
+        ],
+        "projectHref": "/redesign/2/project/arrietty",
+        "bannerLabels": [
+          "图像生成",
+          "3D 模型",
+          "3D 打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(197, 249, 85)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "external": []
+}

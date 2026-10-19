@@ -1,0 +1,19 @@
+{
+  "before": {
+    "sameFrameTitleJump": -41
+  },
+  "after": [
+    {
+      "width": 1802,
+      "sameFrameTitleJump": 0,
+      "firstMovementMs": 15.799999713897705,
+      "canvasResizes": 1
+    },
+    {
+      "width": 1440,
+      "sameFrameTitleJump": 0,
+      "firstMovementMs": 16.299999713897705,
+      "canvasResizes": 1
+    }
+  ]
+}

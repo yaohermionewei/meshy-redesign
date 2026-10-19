@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-18T06:31:27.787Z",
+  "reference": "Logged-in Meshy page read from the user-authenticated in-app browser",
+  "passed": true,
+  "expected": {
+    "1094": {
+      "sidebar": 64,
+      "hero": {
+        "x": 219,
+        "y": 242,
+        "w": 720,
+        "h": 120
+      },
+      "community": {
+        "x": 88,
+        "y": 510
+      },
+      "grid": {
+        "x": 88,
+        "y": 574,
+        "w": 982
+      }
+    },
+    "1588": {
+      "sidebar": 64,
+      "hero": {
+        "x": 466,
+        "y": 242,
+        "w": 720,
+        "h": 120
+      },
+      "community": {
+        "x": 96,
+        "y": 510
+      },
+      "grid": {
+        "x": 96,
+        "y": 574,
+        "w": 1460
+      }
+    }
+  },
+  "results": [
+    {
+      "width": 1094,
+      "passed": true,
+      "checks": {
+        "viewport": true,
+        "sidebar": true,
+        "hero": true,
+        "community": true,
+        "grid": true,
+        "cards": true,
+        "greeting": true,
+        "heading": true,
+        "broken": true,
+        "documentWidth": true,
+        "generateDisabled": true,
+        "external": true,
+        "errors": true
+      },
+      "actual": {
+        "viewport": {
+          "w": 1094,
+          "h": 950
+        },
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 950
+        },
+        "hero": {
+          "x": 219,
+          "y": 242,
+          "w": 720,
+          "h": 120
+        },
+        "community": {
+          "x": 88,
+          "y": 510,
+          "w": 40,
+          "h": 28
+        },
+        "grid": {
+          "x": 88,
+          "y": 574,
+          "w": 982,
+          "h": 3372
+        },
+        "cards": 20,
+        "greeting": "嗨，yaohermione！",
+        "heading": "你要在 3D 中创建什么？",
+        "broken": 0,
+        "documentWidth": 1094,
+        "generateDisabled": true
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "width": 1588,
+      "passed": true,
+      "checks": {
+        "viewport": true,
+        "sidebar": true,
+        "hero": true,
+        "community": true,
+        "grid": true,
+        "cards": true,
+        "greeting": true,
+        "heading": true,
+        "broken": true,
+        "documentWidth": true,
+        "generateDisabled": true,
+        "external": true,
+        "errors": true
+      },
+      "actual": {
+        "viewport": {
+          "w": 1588,
+          "h": 950
+        },
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 950
+        },
+        "hero": {
+          "x": 466,
+          "y": 242,
+          "w": 720,
+          "h": 120
+        },
+        "community": {
+          "x": 96,
+          "y": 510,
+          "w": 40,
+          "h": 28
+        },
+        "grid": {
+          "x": 96,
+          "y": 574,
+          "w": 1460,
+          "h": 2160
+        },
+        "cards": 20,
+        "greeting": "嗨，yaohermione！",
+        "heading": "你要在 3D 中创建什么？",
+        "broken": 0,
+        "documentWidth": 1588,
+        "generateDisabled": true
+      },
+      "external": [],
+      "errors": []
+    }
+  ]
+}

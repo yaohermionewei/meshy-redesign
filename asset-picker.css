@@ -1,0 +1,18 @@
+/* Asset picker dialog; the library itself renders inside the frame. */
+.mp-picker { position: fixed; z-index: 1000; inset: 0; display: grid; place-items: center; }
+.mp-picker[hidden] { display: none; }
+.mp-scrim { position: absolute; inset: 0; background: rgb(0 0 0 / .6); }
+.mp-panel { position: relative; display: flex; width: min(1180px, calc(100vw - 48px)); height: min(780px, calc(100dvh - 48px)); flex-direction: column; overflow: hidden; border: 1px solid rgb(255 255 255 / .08); border-radius: 16px; background: #0e0e0e; box-shadow: 0 24px 64px rgb(0 0 0 / .5); }
+.mp-head { display: flex; height: 52px; flex: none; align-items: center; gap: 12px; padding: 0 10px 0 20px; border-bottom: 1px solid rgb(255 255 255 / .06); color: #dedede; font-family: var(--font-barlow, Barlow), sans-serif; }
+.mp-head h2 { margin: 0; font-size: 15px; font-weight: 600; line-height: 20px; }
+.mp-hint { flex: 1; overflow: hidden; color: rgb(255 255 255 / .4); font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.mp-close { display: grid; width: 32px; height: 32px; flex: none; place-items: center; padding: 0; border: 0; border-radius: 8px; color: rgb(255 255 255 / .7); background: transparent; cursor: pointer; }
+.mp-close:hover { color: #fff; background: rgb(255 255 255 / .07); }
+.mp-close:focus-visible { outline: 2px solid #c5f955; outline-offset: -2px; }
+.mp-close svg { width: 18px; height: 18px; }
+.mp-frame { display: block; width: 100%; min-height: 0; flex: 1; border: 0; background: #0e0e0e; }
+html.mp-open, html.mp-open body { overflow: hidden; }
+@media (max-width: 767px) {
+  .mp-panel { width: 100vw; height: 100dvh; border: 0; border-radius: 0; }
+  .mp-hint { display: none; }
+}

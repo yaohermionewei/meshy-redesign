@@ -1,0 +1,1840 @@
+{
+  "checkedAt": "2026-10-18T05:43:35.752Z",
+  "base": "http://localhost:5174",
+  "passed": true,
+  "results": [
+    {
+      "name": "1440: scheme two, horizontal navigation and sidebar projects",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 809.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 712.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 432,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1216,
+          "h": 226
+        },
+        "content": {
+          "x": 272,
+          "y": 418,
+          "w": 1120,
+          "h": 226
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1440: four banners and scheme one styling retained",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 809.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 712.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 432,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1216,
+          "h": 226
+        },
+        "content": {
+          "x": 272,
+          "y": 418,
+          "w": 1120,
+          "h": 226
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1440: quick layout and assets",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 809.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 712.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 432,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1216,
+          "h": 226
+        },
+        "content": {
+          "x": 272,
+          "y": 418,
+          "w": 1120,
+          "h": 226
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1440: anchored composer, no navigation or reloaded resources",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 809.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 712.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 432,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 362,
+          "w": 1216,
+          "h": 108
+        },
+        "content": {
+          "x": 362,
+          "y": 362,
+          "w": 940,
+          "h": 108
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1440: Agent skills, no recent projects, no overflow",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 809.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 712.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 432,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 362,
+          "w": 1216,
+          "h": 108
+        },
+        "content": {
+          "x": 362,
+          "y": 362,
+          "w": 940,
+          "h": 108
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1440: community and banners retain DOM",
+      "passed": true
+    },
+    {
+      "name": "1440: community controls do not overlap",
+      "passed": true
+    },
+    {
+      "name": "1440: returns to all four banners",
+      "passed": true
+    },
+    {
+      "name": "1920: scheme two, horizontal navigation and sidebar projects",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 1049.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 952.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 612,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1696,
+          "h": 226
+        },
+        "content": {
+          "x": 512,
+          "y": 418,
+          "w": 1120,
+          "h": 226
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1200
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1920: four banners and scheme one styling retained",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 1049.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 952.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 612,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1696,
+          "h": 226
+        },
+        "content": {
+          "x": 512,
+          "y": 418,
+          "w": 1120,
+          "h": 226
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1200
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1920: quick layout and assets",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 1049.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 952.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 612,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 418,
+          "w": 1696,
+          "h": 226
+        },
+        "content": {
+          "x": 512,
+          "y": 418,
+          "w": 1120,
+          "h": 226
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1200
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1920: anchored composer, no navigation or reloaded resources",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 1049.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 952.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 612,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 362,
+          "w": 1696,
+          "h": 108
+        },
+        "content": {
+          "x": 602,
+          "y": 362,
+          "w": 940,
+          "h": 108
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1200
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1920: Agent skills, no recent projects, no overflow",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 1049.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 952.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 612,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 224,
+          "y": 362,
+          "w": 1696,
+          "h": 108
+        },
+        "content": {
+          "x": 602,
+          "y": 362,
+          "w": 940,
+          "h": 108
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 224,
+          "h": 1200
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "1920: community and banners retain DOM",
+      "passed": true
+    },
+    {
+      "name": "1920: community controls do not overlap",
+      "passed": true
+    },
+    {
+      "name": "1920: returns to all four banners",
+      "passed": true
+    },
+    {
+      "name": "768: scheme two, horizontal navigation and sidebar projects",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 332.40625,
+            "y": 152,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 360.90625,
+            "y": 220,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 208,
+            "y": 282,
+            "w": 544,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 192,
+          "y": 458,
+          "w": 576,
+          "h": 396
+        },
+        "content": {
+          "x": 216,
+          "y": 458,
+          "w": 528,
+          "h": 396
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "768: four banners and scheme one styling retained",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 332.40625,
+            "y": 152,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 360.90625,
+            "y": 220,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 208,
+            "y": 282,
+            "w": 544,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 192,
+          "y": 458,
+          "w": 576,
+          "h": 396
+        },
+        "content": {
+          "x": 216,
+          "y": 458,
+          "w": 528,
+          "h": 396
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "768: quick layout and assets",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 332.40625,
+            "y": 152,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 360.90625,
+            "y": 220,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 208,
+            "y": 282,
+            "w": 544,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 192,
+          "y": 458,
+          "w": 576,
+          "h": 396
+        },
+        "content": {
+          "x": 216,
+          "y": 458,
+          "w": 528,
+          "h": 396
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "768: anchored composer, no navigation or reloaded resources",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 332.40625,
+            "y": 152,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 360.90625,
+            "y": 220,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 208,
+            "y": 282,
+            "w": 544,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 192,
+          "y": 402,
+          "w": 576,
+          "h": 212
+        },
+        "content": {
+          "x": 216,
+          "y": 402,
+          "w": 528,
+          "h": 212
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "768: Agent skills, no recent projects, no overflow",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 332.40625,
+            "y": 152,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 360.90625,
+            "y": 220,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 208,
+            "y": 282,
+            "w": 544,
+            "h": 176
+          }
+        ],
+        "expansion": {
+          "x": 192,
+          "y": 402,
+          "w": 576,
+          "h": 212
+        },
+        "content": {
+          "x": 216,
+          "y": 402,
+          "w": 528,
+          "h": 212
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 1100
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "768: community and banners retain DOM",
+      "passed": true
+    },
+    {
+      "name": "768: community controls do not overlap",
+      "passed": true
+    },
+    {
+      "name": "768: returns to all four banners",
+      "passed": true
+    },
+    {
+      "name": "390: scheme two, horizontal navigation and sidebar projects",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "expansion": {
+          "x": 0,
+          "y": 503,
+          "w": 390,
+          "h": 394
+        },
+        "content": {
+          "x": 16,
+          "y": 503,
+          "w": 358,
+          "h": 394
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 106
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "390: four banners and scheme one styling retained",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "expansion": {
+          "x": 0,
+          "y": 503,
+          "w": 390,
+          "h": 394
+        },
+        "content": {
+          "x": 16,
+          "y": 503,
+          "w": 358,
+          "h": 394
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 106
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "390: quick layout and assets",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "expansion": {
+          "x": 0,
+          "y": 503,
+          "w": 390,
+          "h": 394
+        },
+        "content": {
+          "x": 16,
+          "y": 503,
+          "w": 358,
+          "h": 394
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 106
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "390: anchored composer, no navigation or reloaded resources",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "expansion": {
+          "x": 0,
+          "y": 432,
+          "w": 390,
+          "h": 212
+        },
+        "content": {
+          "x": 16,
+          "y": 432,
+          "w": 358,
+          "h": 212
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 106
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "390: Agent skills, no recent projects, no overflow",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign2",
+        "mode": "agent",
+        "url": "http://localhost:5174/redesign/2",
+        "history": 2,
+        "resources": 75,
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "expansion": {
+          "x": 0,
+          "y": 432,
+          "w": 390,
+          "h": 212
+        },
+        "content": {
+          "x": 16,
+          "y": 432,
+          "w": 358,
+          "h": 212
+        },
+        "cards": 20,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 106
+        },
+        "nav": [
+          {
+            "name": "首页",
+            "direction": "row"
+          },
+          {
+            "name": "skills",
+            "direction": "row"
+          },
+          {
+            "name": "资产",
+            "direction": "row"
+          }
+        ],
+        "projects": [
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "bannerLabels": [
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ],
+        "utilities": [
+          "商店",
+          "开发者",
+          "资源"
+        ],
+        "homeColor": "rgb(222, 222, 222)",
+        "recent": 0,
+        "broken": 0,
+        "overflow": false,
+        "clippedText": []
+      }
+    },
+    {
+      "name": "390: community and banners retain DOM",
+      "passed": true
+    },
+    {
+      "name": "390: community controls do not overlap",
+      "passed": true
+    },
+    {
+      "name": "Mobile projects expand without navigation",
+      "passed": true
+    },
+    {
+      "name": "Mobile project panel closes with Escape",
+      "passed": true
+    },
+    {
+      "name": "390: returns to all four banners",
+      "passed": true
+    },
+    {
+      "name": "Measured mode transitions move community continuously",
+      "passed": true
+    },
+    {
+      "name": "Interrupted transitions and rapid toggles settle correctly",
+      "passed": true
+    },
+    {
+      "name": "Resize 390: retains mode, draft, cards and measured height",
+      "passed": true
+    },
+    {
+      "name": "Resize 768: retains mode, draft, cards and measured height",
+      "passed": true
+    },
+    {
+      "name": "Resize 1920: retains mode, draft, cards and measured height",
+      "passed": true
+    },
+    {
+      "name": "Resize 1440: retains mode, draft, cards and measured height",
+      "passed": true
+    },
+    {
+      "name": "Keyboard mode switch keeps draft and selection",
+      "passed": true
+    },
+    {
+      "name": "Mode switching preserves scroll position",
+      "passed": true,
+      "detail": {
+        "before": 300,
+        "quick": 300,
+        "agent": 300
+      }
+    },
+    {
+      "name": "Reduced motion remains supported",
+      "passed": true
+    },
+    {
+      "name": "Direct route refresh",
+      "passed": true
+    },
+    {
+      "name": "No console errors, failed images or external resources",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "failed": [],
+        "external": []
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "external": []
+}

@@ -1,0 +1,62 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "duration": 9.762,
+  "capturedFrames": 200,
+  "timeline": [
+    {
+      "time": 1.102,
+      "mode": "agent"
+    },
+    {
+      "time": 2.666,
+      "mode": "quick"
+    },
+    {
+      "time": 3.897,
+      "mode": "agent"
+    },
+    {
+      "time": 4.029,
+      "mode": "quick"
+    },
+    {
+      "time": 4.163,
+      "mode": "agent"
+    },
+    {
+      "time": 5.615,
+      "mode": "quick"
+    },
+    {
+      "time": 5.69,
+      "mode": "agent"
+    },
+    {
+      "time": 5.774,
+      "mode": "quick"
+    },
+    {
+      "time": 5.858,
+      "mode": "agent"
+    },
+    {
+      "time": 5.942,
+      "mode": "quick"
+    },
+    {
+      "time": 6.026,
+      "mode": "agent"
+    },
+    {
+      "time": 7.305,
+      "mode": "quick"
+    },
+    {
+      "time": 8.529,
+      "mode": "agent"
+    }
+  ]
+}

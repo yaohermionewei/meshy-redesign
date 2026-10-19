@@ -1,0 +1,864 @@
+{
+  "checkedAt": "2026-10-18T05:27:19.609Z",
+  "base": "http://localhost:5174",
+  "passed": true,
+  "results": [
+    {
+      "name": "1440: original ambient animations remain frozen",
+      "passed": true
+    },
+    {
+      "name": "1440: route, default and navigation",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign1",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "cards": 20,
+        "rects": [
+          {
+            "x": 729.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 632.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 352,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ]
+      }
+    },
+    {
+      "name": "1440: stable title, tabs and input footprint",
+      "passed": true,
+      "detail": {
+        "before": [
+          {
+            "x": 729.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 632.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 352,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "after": [
+          {
+            "x": 729.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 632.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 352,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440: local state, persistent DOM and resources",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 729.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 632.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 352,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "height": 427,
+        "realHeight": 427.203125,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "1440: complete content, measured expansion, no overflow",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 729.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 632.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 352,
+            "y": 242,
+            "w": 800,
+            "h": 176
+          }
+        ],
+        "height": 427,
+        "realHeight": 427.203125,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "1440: collapse completes",
+      "passed": true
+    },
+    {
+      "name": "1920: original ambient animations remain frozen",
+      "passed": true
+    },
+    {
+      "name": "1920: route, default and navigation",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign1",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "cards": 20,
+        "rects": [
+          {
+            "x": 969.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 872.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 532,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ]
+      }
+    },
+    {
+      "name": "1920: stable title, tabs and input footprint",
+      "passed": true,
+      "detail": {
+        "before": [
+          {
+            "x": 969.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 872.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 532,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "after": [
+          {
+            "x": 969.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 872.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 532,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920: local state, persistent DOM and resources",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 969.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 872.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 532,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "height": 427,
+        "realHeight": 427.203125,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "1920: complete content, measured expansion, no overflow",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 969.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 872.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 532,
+            "y": 242,
+            "w": 920,
+            "h": 176
+          }
+        ],
+        "height": 427,
+        "realHeight": 427.203125,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "1920: collapse completes",
+      "passed": true
+    },
+    {
+      "name": "768: original ambient animations remain frozen",
+      "passed": true
+    },
+    {
+      "name": "768: route, default and navigation",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign1",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "cards": 20,
+        "rects": [
+          {
+            "x": 393.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 296.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 80,
+            "y": 242,
+            "w": 672,
+            "h": 176
+          }
+        ],
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ]
+      }
+    },
+    {
+      "name": "768: stable title, tabs and input footprint",
+      "passed": true,
+      "detail": {
+        "before": [
+          {
+            "x": 393.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 296.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 80,
+            "y": 242,
+            "w": 672,
+            "h": 176
+          }
+        ],
+        "after": [
+          {
+            "x": 393.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 296.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 80,
+            "y": 242,
+            "w": 672,
+            "h": 176
+          }
+        ]
+      }
+    },
+    {
+      "name": "768: local state, persistent DOM and resources",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 393.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 296.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 80,
+            "y": 242,
+            "w": 672,
+            "h": 176
+          }
+        ],
+        "height": 783,
+        "realHeight": 782.65625,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "768: complete content, measured expansion, no overflow",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 393.953125,
+            "y": 112,
+            "w": 295.1875,
+            "h": 36
+          },
+          {
+            "x": 296.90625,
+            "y": 180,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 80,
+            "y": 242,
+            "w": 672,
+            "h": 176
+          }
+        ],
+        "height": 783,
+        "realHeight": 782.65625,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "768: collapse completes",
+      "passed": true
+    },
+    {
+      "name": "390: original ambient animations remain frozen",
+      "passed": true
+    },
+    {
+      "name": "390: route, default and navigation",
+      "passed": true,
+      "detail": {
+        "title": "meshy_redesign1",
+        "mode": "quick",
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "cards": 20,
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "nav": [
+          "首页",
+          "skills",
+          "资产",
+          "图像",
+          "模型",
+          "打印",
+          "动画"
+        ]
+      }
+    },
+    {
+      "name": "390: stable title, tabs and input footprint",
+      "passed": true,
+      "detail": {
+        "before": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "after": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ]
+      }
+    },
+    {
+      "name": "390: local state, persistent DOM and resources",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "height": 991,
+        "realHeight": 991,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "390: complete content, measured expansion, no overflow",
+      "passed": true,
+      "detail": {
+        "url": "http://localhost:5174/redesign/1",
+        "history": 2,
+        "resources": 72,
+        "mode": "agent",
+        "rects": [
+          {
+            "x": 89.578125,
+            "y": 160,
+            "w": 210.84375,
+            "h": 28
+          },
+          {
+            "x": 75.90625,
+            "y": 212,
+            "w": 238.1875,
+            "h": 38
+          },
+          {
+            "x": 16,
+            "y": 274,
+            "w": 358,
+            "h": 229
+          }
+        ],
+        "height": 991,
+        "realHeight": 991,
+        "same": true,
+        "skills": [
+          "图片转 3D",
+          "礼物设计",
+          "批量生成模型",
+          "草图转手办",
+          "人物配色实验",
+          "3D 打印学习"
+        ],
+        "projects": [
+          "新建项目",
+          "点我！借东西小人游戏",
+          "Y2K",
+          "类双人成行",
+          "图片问题"
+        ],
+        "blankY2K": true,
+        "broken": 0,
+        "overflow": false,
+        "modules": 1
+      }
+    },
+    {
+      "name": "390: collapse completes",
+      "passed": true
+    },
+    {
+      "name": "Expansion and collapse interpolate with document flow",
+      "passed": true
+    },
+    {
+      "name": "Mid-animation reversal and rapid clicks settle on latest state",
+      "passed": true
+    },
+    {
+      "name": "Resize 390: preserves draft, mode, DOM and measured height",
+      "passed": true
+    },
+    {
+      "name": "Resize 768: preserves draft, mode, DOM and measured height",
+      "passed": true
+    },
+    {
+      "name": "Resize 1920: preserves draft, mode, DOM and measured height",
+      "passed": true
+    },
+    {
+      "name": "Resize 1440: preserves draft, mode, DOM and measured height",
+      "passed": true
+    },
+    {
+      "name": "Keyboard arrows select and focus Agent",
+      "passed": true
+    },
+    {
+      "name": "Keyboard Home returns to quick",
+      "passed": true
+    },
+    {
+      "name": "Switching preserves scroll position",
+      "passed": true,
+      "detail": {
+        "before": 300,
+        "opened": 300,
+        "closed": 300
+      }
+    },
+    {
+      "name": "Reduced motion switches without animation",
+      "passed": true
+    },
+    {
+      "name": "Direct route refresh retains title and default",
+      "passed": true
+    },
+    {
+      "name": "No console errors, failed assets or external requests",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "failed": [],
+        "external": []
+      }
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "external": []
+}

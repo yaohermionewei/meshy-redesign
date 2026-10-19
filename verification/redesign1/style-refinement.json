@@ -1,0 +1,41 @@
+[
+  {
+    "port": 5173,
+    "width": 1440,
+    "gap": 24,
+    "cardHeight": 44,
+    "background": "rgba(255, 255, 255, 0.024)",
+    "border": "rgba(255, 255, 255, 0.055)",
+    "more": "查看更多",
+    "moreAtRight": true,
+    "headingRow": false,
+    "overflow": false,
+    "broken": 0
+  },
+  {
+    "port": 5173,
+    "width": 390,
+    "gap": 24,
+    "cardHeight": 44,
+    "background": "rgba(255, 255, 255, 0.024)",
+    "border": "rgba(255, 255, 255, 0.055)",
+    "more": "查看更多",
+    "moreAtRight": false,
+    "headingRow": true,
+    "overflow": false,
+    "broken": 0
+  },
+  {
+    "port": 5175,
+    "width": 1440,
+    "gap": 24,
+    "cardHeight": 44,
+    "background": "rgba(255, 255, 255, 0.024)",
+    "border": "rgba(255, 255, 255, 0.055)",
+    "more": "查看更多",
+    "moreAtRight": true,
+    "headingRow": false,
+    "overflow": false,
+    "broken": 0
+  }
+]
